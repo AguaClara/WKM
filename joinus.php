@@ -43,10 +43,11 @@ innovation in friendship, and beauty in engineering."
     gain credit for the research conducted.
   </p>
     <ul>
-      <li>CEE 2550: AguaClara: Sus H2O Supply Proj</li>
+      <li>CEE 2550: AguaClara: Sustainable Water Supply Project</li>
       <li>CEE 4540: Sustainable Municipal Drinking Water Treatment</li>
-      <li>CEE 4550 [GRADUATE: CEE 5051-5052]</li>
-      <li>CEE 3090 </li>
+      <li>CEE 4550: AguaClara: Sustainable Water Supply Project [GRADUATE: CEE 5051-5052]</li>
+      <li>CEE 3090: Special Topics in Civil and Environmental
+Engineering</li>
       <li>International Student Research Internships</li>
     </ul>
 </div>
