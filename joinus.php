@@ -32,10 +32,34 @@ being a part of the team has shown me that there is sophistication in simplicity
 innovation in friendship, and beauty in engineering."
 </p>
 <p> - Christopher Galantino '19 </p>
+<div>
 <img class="testimonial_image" alt="christopher" src="images/chris1.jpg"/>
-
+</div>
 </div>
 
+<div>
+<div>
+<p> “Aguaclara has made it clear to me the importance of communication
+ and lifelong friendships; that the key to engineering is a foundation
+of understanding across ideologies, languages, and cultures. Rather
+than becoming overwhelmed by the daunting mission that defines Aguaclara,
+being a part of the team has shown me that there is sophistication in simplicity,
+innovation in friendship, and beauty in engineering."
+
+</p>
+</div>
+<p> “Aguaclara has made it clear to me the importance of communication
+ and lifelong friendships; that the key to engineering is a foundation
+of understanding across ideologies, languages, and cultures. Rather
+than becoming overwhelmed by the daunting mission that defines Aguaclara,
+being a part of the team has shown me that there is sophistication in simplicity,
+innovation in friendship, and beauty in engineering."
+</p>
+<p> - Clare O'Connor '19 </p>
+<div>
+<img class="testimonial_image" alt="christopher" src="images/clare1.jpg"/>
+</div>
+</div>
 <div>
   <h2> Courses </h2>
   <p>Joining Aguaclara as an undergraduate project
