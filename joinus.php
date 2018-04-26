@@ -9,7 +9,7 @@
 
 </head>
 <body>
-  <?php include("includes/header.php");?>
+  <?php include("includes/nav.php");?>
   <h1>Join Us </h1>
   <img class="banner" alt="banner" src="images/joinus1.jpg"/>
   <div>
