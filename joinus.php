@@ -31,7 +31,7 @@
       being a part of the team has shown me that there is sophistication in simplicity,
       innovation in friendship, and beauty in engineering."
     </p>
-    <p> - Christopher Galantino '19 </p>
+    <p> - Christopher Galantino, Environmental Engineering '19 </p>
     <div>
       <img class="testimonial_image" alt="christopher" src="images/chris1.jpg"/>
     </div>
@@ -53,9 +53,9 @@
       being a part of the team has shown me that there is sophistication in simplicity,
       innovation in friendship, and beauty in engineering."
     </p>
-    <p> - Clare O'Connor '19 </p>
+    <p> - Clare O'Connor, Environmental Engineering '18 </p>
     <div>
-      <img class="testimonial_image" alt="christopher" src="images/clare1.jpg"/>
+      <img class="testimonial_image" alt="clare" src="images/clare1.jpg"/>
     </div>
   </div>
   <div>
