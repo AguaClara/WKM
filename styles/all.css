@@ -23,7 +23,7 @@ html, body {
 
 .carousel-item{
   width:100%;
-  height: 400px !important; 
+  height: 400px !important;
 }
 
 .carousel-inner img {
@@ -71,8 +71,22 @@ h2, .green{
   padding: 1rem;
 }
 
+.joinus_container_testimonial{
+  display: flex;
+}
 
+.joinus_testimonial1_image{
+justify-content: flex-start;
+}
+.joinus_testimonial_image{
+height: 20%;
+width: 30%;
 
+}
+p{
+  font-family: 'Lato', sans-serif;
+
+}
 
 /* media queries */
 @media (max-width: 992px){

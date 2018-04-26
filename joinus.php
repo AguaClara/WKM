@@ -23,41 +23,48 @@
 
   <div>
     <h2> Why should you join our mission?</h2>
-
-    <p> “Aguaclara has made it clear to me the importance of communication
-      and lifelong friendships; that the key to engineering is a foundation
-      of understanding across ideologies, languages, and cultures. Rather
-      than becoming overwhelmed by the daunting mission that defines Aguaclara,
-      being a part of the team has shown me that there is sophistication in simplicity,
-      innovation in friendship, and beauty in engineering."
-    </p>
-    <p> - Christopher Galantino, Environmental Engineering '19 </p>
-    <div>
-      <img class="testimonial_image" alt="christopher" src="images/chris1.jpg"/>
+    <div class="joinus_container_testimonial">
+      <div class = "joinus_testimonial1">
+        <p> “Aguaclara has made it clear to me the importance of communication
+          and lifelong friendships; that the key to engineering is a foundation
+          of understanding across ideologies, languages, and cultures. Rather
+          than becoming overwhelmed by the daunting mission that defines Aguaclara,
+          being a part of the team has shown me that there is sophistication in simplicity,
+          innovation in friendship, and beauty in engineering."
+        </p>
+        <div class = "joinus_testimonial1_image">
+          <div>
+            <img class="joinus_testimonial_image" alt="christopher" src="images/chris1.jpg"/>
+          </div>
+          <p> - Christopher Galantino, Environmental Engineering '19 </p>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div>
     <div>
-      <p> “Being surrounded by so many people who are equally committed to using
-        engineering to benefit communities is incredible. It has been so special to
-        do research, watch the implementation of the team’s hard work, and have the
-        opportunity to visit plants in Honduras. AguaClara has inspired a change in
-        my career path to focus more on safe water."
+      <div>
+        <p> “Being surrounded by so many people who are equally committed to using
+          engineering to benefit communities is incredible. It has been so special to
+          do research, watch the implementation of the team’s hard work, and have the
+          opportunity to visit plants in Honduras. AguaClara has inspired a change in
+          my career path to focus more on safe water."
+        </p>
+      </div>
+      <p> “Aguaclara has made it clear to me the importance of communication
+        and lifelong friendships; that the key to engineering is a foundation
+        of understanding across ideologies, languages, and cultures. Rather
+        than becoming overwhelmed by the daunting mission that defines Aguaclara,
+        being a part of the team has shown me that there is sophistication in simplicity,
+        innovation in friendship, and beauty in engineering."
       </p>
-    </div>
-    <p> “Aguaclara has made it clear to me the importance of communication
-      and lifelong friendships; that the key to engineering is a foundation
-      of understanding across ideologies, languages, and cultures. Rather
-      than becoming overwhelmed by the daunting mission that defines Aguaclara,
-      being a part of the team has shown me that there is sophistication in simplicity,
-      innovation in friendship, and beauty in engineering."
-    </p>
-    <p> - Clare O'Connor, Environmental Engineering '18 </p>
-    <div>
-      <img class="testimonial_image" alt="clare" src="images/clare1.jpg"/>
+      <p> - Clare O'Connor, Environmental Engineering '18 </p>
+      <div>
+        <img class="testimonial_image" alt="clare" src="images/clare1.jpg"/>
+      </div>
     </div>
   </div>
+
+
   <div>
     <h2> Courses </h2>
     <p>Joining Aguaclara as an undergraduate project
