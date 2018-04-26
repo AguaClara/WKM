@@ -1,7 +1,7 @@
 <!-- nav bar-->
   <nav class= "navbar navbar-expand-md navbar-light style=" background-color: #fff "sticky-top">
   <div class= "container-fluid">
-    <a class= "navbar-brand" href= "index.html"> <img src= "images/logo.png"></a>
+    <a class= "navbar-brand" href= "index.php"> <img src= "images/logo.png"></a>
     <button class= "navbar-toggler" type= "button" data-toggle="collapse"
     data-target= "#navbarResponsive">
       <span class= "navbar-toggler-icon"></span>
