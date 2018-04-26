@@ -11,7 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all">
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
 </head>
 
 <body>
@@ -24,7 +24,7 @@
     <li data-target="#slides" data-slide-to="1"></li>
     <li data-target="#slides" data-slide-to="2"></li>
   </ul>
-  <div class="carousel-inner" style=" width:100%; height: 400px !important;">
+  <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/banner_homepage.JPG">
     </div>
@@ -43,7 +43,8 @@
   <div class="text-center row jumbotron">
     <div class="col-12">
       <h3>Safe water on tap,</h3>
-      <h2 style="color:#3ebeda">1 drop at a time</h2>
+      <h2 class="blue"
+      >1 drop at a time</h2>
     </div>
   </div>
   <hr>
@@ -57,10 +58,9 @@
       <img src="images/facts_homepage.jpeg" class="img-fluid mx-auto d-block">
     </div>
     <div class="col-md-6 col-lg-6">
-      <p><font color="#3ebeda">Nearly 3 billion people</font> in the world do not have access to clean and safe drinking water.</p>
-      <p><font color="#3ebeda">1,000 children</font> die everyday due to water related diarrheal diseases.</p>
-      <p>More than <font color="#3ebeda">80%</font> of our wastewater is discharged back to the environment without proper treatment.</p>
-        <br>
+      <p> <div class="home_highlight_fact">Nearly 3 billion people</div> in the world do not have access to clean and safe drinking water.</p>
+      <p> <div class="home_highlight_fact">1,000 children</div> die everyday due to water related diarrheal diseases.</p>
+      <p> <div class="home_highlight_fact">More than 80%</div> of our wastewater is discharged back to the environment without proper treatment.</p>
     </div>
   </div>
   <hr>
@@ -71,7 +71,7 @@
 <div class="container-fluid">
   <div class="text-center row jumbotron change">
     <div class="col-12">
-      <h2 style="color:#6fc460">We want to change this.</h2>
+      <h2 class="green">We want to change this.</h2>
     </div>
   </div>
   <hr>
@@ -82,7 +82,7 @@
 <div class="container-fluid padding">
   <div class="row padding mission">
     <div class="col-lg-6 misstatement">
-      <h2 style="color:#3ebeda">Our mission</h2>
+      <h2 class="blue">Our mission</h2>
       <br>
       <p>Access to safe drinking water is a fundamental human right that
         AguaClara Cornell strives to uphold and protect. We are committed to
