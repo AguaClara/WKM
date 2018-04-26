@@ -1,13 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> AguaClara Cornell </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all">
 </head>
+
 <body>
+
+<!-- nav bar-->
+  <nav class="navbar navbar-expand-md navbar-light style="background-color: #fff" sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Impact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="joinus.php">Join Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Images banner -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner" style=" width:100%; height: 400px !important;">
+    <div class="carousel-item active">
+      <img src="images/banner_homepage.JPG">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner2_homepage.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner3_homepage.jpg">
+    </div>
+  </div>
+</div>
+
+<!-- jumbotron -->
+
+<div class="container-fluid">
+  <div class="text-center row jumbotron">
+    <div class="col-12">
+      <h3>Safe water on tap,</h3>
+      <h2 style="color:#3ebeda">1 drop at a time</h2>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<!-- facts -->
+
+<div class="facts container-fluid padding">
+  <div class="row">
+    <div class="col-md-6 col-lg-6">
+      <img src="images/facts_homepage.jpeg" class="img-fluid mx-auto d-block">
+    </div>
+    <div class="col-md-6 col-lg-6">
+      <p><font color="#3ebeda">Nearly 3 billion people</font> in the world do not have access to clean and safe drinking water.</p>
+      <p><font color="#3ebeda">1,000 children</font> die everyday due to water related diarrheal diseases.</p>
+      <p>More than <font color="#3ebeda">80%</font> of our wastewater is discharged back to the environment without proper treatment.</p>
+        <br>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<!-- jumbotron -->
+
+<div class="container-fluid">
+  <div class="text-center row jumbotron change">
+    <div class="col-12">
+      <h2 style="color:#6fc460">We want to change this.</h2>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<!-- Mission statement -->
+
+<div class="container-fluid padding">
+  <div class="row padding mission">
+    <div class="col-lg-6 misstatement">
+      <h2 style="color:#3ebeda">Our mission</h2>
+      <br>
+      <p>Access to safe drinking water is a fundamental human right that
+        AguaClara Cornell strives to uphold and protect. We are committed to
+        developing sustainable, municipal water treatment plants that empower
+        communities with minimal access to clean water. At AguaClara Cornell,
+        we foster a collaborative work and learning environment where students
+        from all disciplines and backgrounds unite. We research, design, and
+        develop technologies that are implemented locally by our partner
+        organizations to bring safe water on tap!</p>
+        <br>
+    </div>
+    <div class="col-lg-6">
+      <img src="images/mission_homepage.jpg" class="img-fluid">
+    </div>
+  </div>
+  <hr>
+</div>
+
+
 </body>
 
 </html>

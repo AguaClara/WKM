@@ -1,0 +1,66 @@
+/*font */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #222;
+}
+
+.navbar {
+  padding: 0.8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+  text-align: center;
+}
+
+.carousel-inner img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 100%;
+}
+
+.jumbotron {
+  background-color: #fff !important;
+}
+
+.facts {
+  padding: 2rem 5rem;
+}
+
+.facts .row img {
+  padding-bottom: 2rem;
+  width:500px;
+}
+
+.change {
+  padding-bottom: 3rem;
+}
+
+.mission {
+  padding: 2rem 0;
+}
+
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/* media queries */
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+
+}
