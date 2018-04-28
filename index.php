@@ -1,3 +1,7 @@
+<?
+  const $home_video_link = "https://drive.google.com/open?id=1jI28KBgRqN-Q39DEkDVtcf_0eKMnTXN_";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,9 +62,9 @@
       <img src="images/facts_homepage.jpeg" class="img-fluid mx-auto d-block">
     </div>
     <div class="col-md-6 col-lg-6">
-      <p> <div class="home_highlight_fact">Nearly 3 billion people</div> in the world do not have access to clean and safe drinking water.</p>
-      <p> <div class="home_highlight_fact">1,000 children</div> die everyday due to water related diarrheal diseases.</p>
-      <p> <div class="home_highlight_fact">More than 80%</div> of our wastewater is discharged back to the environment without proper treatment.</p>
+       <div class="home_highlight_fact">Nearly 3 billion people</div> <p>in the world do not have access to clean and safe drinking water.</p>
+       <div class="home_highlight_fact">1,000 children</div> <p>die everyday due to water related diarrheal diseases.</p>
+       <div class="home_highlight_fact">More than 80%</div><p> of our wastewater is discharged back to the environment without proper treatment.</p>
     </div>
   </div>
   <hr>
@@ -84,14 +88,9 @@
     <div class="col-lg-6 misstatement">
       <h2 class="blue">Our mission</h2>
       <br>
-      <p>Access to safe drinking water is a fundamental human right that
-        AguaClara Cornell strives to uphold and protect. We are committed to
-        developing sustainable, municipal water treatment plants that empower
-        communities with minimal access to clean water. At AguaClara Cornell,
-        we foster a collaborative work and learning environment where students
-        from all disciplines and backgrounds unite. We research, design, and
-        develop technologies that are implemented locally by our partner
-        organizations to bring safe water on tap!</p>
+      <p>AguaClara Cornell researches, invents, and designs resilient, gravity-powered, community-managed water treatment technologies for villages, towns, and cities. </p>
+      <p> Students lead the innovation process, learn from each other, and foster a collaborative environment where diversity is cherished, failures are learning opportunities, and where success is shared. </p>
+      <p> We work with partner organizations who implement AguaClara technologies to provide reliable safe water on tap to whole communities.</p>
         <br>
     </div>
     <div class="col-lg-6">
@@ -100,6 +99,7 @@
   </div>
   <hr>
 </div>
+
 
 
 </body>

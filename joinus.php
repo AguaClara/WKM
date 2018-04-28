@@ -22,7 +22,7 @@
   </div>
 
   <div>
-    <h2> Why should you join our mission?</h2>
+    <h2 class="green"> Why should you join our mission?</h2>
     <div class="joinus_container_testimonial">
       <div class = "joinus_testimonial1">
         <p> “Aguaclara has made it clear to me the importance of communication
@@ -66,7 +66,7 @@
 
 
   <div>
-    <h2> Courses </h2>
+    <h2 class="blue"> Courses </h2>
     <p>Joining Aguaclara as an undergraduate project
       team member requires you to take CEE 2550 to
       gain credit for the research conducted.

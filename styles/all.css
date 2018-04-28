@@ -1,3 +1,4 @@
+/* -global variables start- */
 /*font */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
@@ -6,6 +7,20 @@ html, body {
   width: 100%;
   font-family: 'Lato', sans-serif;
   color: #222;
+}
+h2{
+  margin-left: 40px;
+}
+h2, .blue{
+  color: #3ebeda;
+}
+
+h2, .green{
+  color:#6fc460;
+}
+p{
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .navbar {
@@ -20,6 +35,10 @@ html, body {
   font-size: 1.1em !important;
   text-align: center;
 }
+
+/* -global variables end- */
+
+
 
 .carousel-inner{
   width:100%;
@@ -56,15 +75,10 @@ html, body {
   padding: 2rem 0;
 }
 
-h2, .blue{
-  color: #3ebeda;
-}
 
-h2, .green{
-  color:#6fc460;
-}
 
 .home_highlight_fact{
+  font-size: 18px;
   color:#3ebeda;
 }
 [class*="col-"] {
@@ -88,11 +102,95 @@ h2, .green{
 
 
 
+/* Adrianne CSS */
+#about_Monroe_container, #about_TeamLeads_container{
+  display: flex;
+  flex-direction: row;
+  margin:40px;
+  border-bottom: 1px solid lightgray;
+}
+#about_Monroe_text{
+  flex:2;
+  order:1;
+  margin-right: 40px;
+}
+#about_Monroe_image{
+  width:300px;
+  height:300px;
+  flex:1;
+  order:2;
+  margin-left: 40px;
+  margin-bottom: 25px;
+}
 
+#about_Team_Lead1{
+  width:300px;
+  height:300px;
+  flex:1;
+  order:1;
+  margin-left: 40px;
+}
+#about_Team_Lead2{
+  width:300px;
+  height:300px;
+  flex:1;
+  order:2;
+  margin-left: 40px;
+}
+#about_Team_Lead3{
+  width:300px;
+  height:300px;
+  flex:1;
+  order:1;
+  margin-left: 40px;
+}
 
+#about_TeamLeads{
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.about_figcap{
+  text-align: center;
+  padding-left: 20px;
+  font-size: 14px;
+  margin-top: 15px;
+}
 
+#about_banner {
+  background-image: url("../images/about_banner.jpg");
+  height:50%;
+  margin-top: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom:30px;
+  opacity: .95;
+}
 
+#about_Who_We_Are_title{
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 50%;
+  padding-top: 60px;
+  text-shadow: 0px 0px 3px black;
+
+}
+
+#about_Who_We_Are_txt {
+    font-weight: 400;
+    width:800px;
+    font-size: 17px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
 
 
 
