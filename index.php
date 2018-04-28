@@ -46,9 +46,7 @@
 <div class="container-fluid">
   <div class="text-center row jumbotron">
     <div class="col-12">
-      <h3>Safe water on tap,</h3>
-      <h2 class="blue"
-      >1 drop at a time</h2>
+      <h2 class="green"> Reasearch . Invent . Design . Engage </h2>
     </div>
   </div>
   <hr>
@@ -90,7 +88,7 @@
       <br>
       <p>AguaClara Cornell researches, invents, and designs resilient, gravity-powered, community-managed water treatment technologies for villages, towns, and cities. </p>
       <p> Students lead the innovation process, learn from each other, and foster a collaborative environment where diversity is cherished, failures are learning opportunities, and where success is shared. </p>
-      <p> We work with partner organizations who implement AguaClara technologies to provide reliable safe water on tap to whole communities.</p>
+      <p> We work with partner organizations who implement AguaClara technologies to provide reliable <i> safe water on tap </i>to whole communities.</p>
         <br>
     </div>
     <div class="col-lg-6">

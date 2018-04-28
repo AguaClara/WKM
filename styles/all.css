@@ -156,6 +156,11 @@ p{
   font-size: 14px;
   margin-top: 15px;
 }
+a:link, a:visited, .about_subteam_link{
+  color:white;
+  text-align: center;
+  font-size: 35px;
+}
 
 #about_banner {
   background-image: url("../images/about_banner.jpg");
@@ -193,8 +198,63 @@ p{
 }
 
 
+#Subteams_Container, #ST_Container{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+#Subteams_SubC1, #Student4{
+  flex:1;
+  order:1;
+  display: flex;
+  flex-direction: row;
+}
+#Subteams_SubC2, #Student5{
+  flex:1;
+  order:2;
+  display: flex;
+  flex-direction: row;
+}
+#GoingGlobal,#Apps_and_Algorithms{
+  flex:1;
+  order:1;
+}
+#Lab_Research,#Fabrication{
+  flex:1;
+  order:2;
+}
 
+#GoingGlobal{
+  width: 450px;
+  height:450px;
+  background-color:#1A4F5A;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
 
+#Apps_and_Algorithms{
+  width: 450px;
+  height:450px;
+  background-color: #6FC460;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
+
+#Lab_Research{
+  width: 450px;
+  height:450px;
+  background-color: #83CFE0;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
+
+#Fabrication{
+  width: 450px;
+  height:450px;
+  background-color:#12380B;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
 
 
 
