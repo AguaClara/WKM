@@ -301,34 +301,29 @@ a:link, a:visited, .about_subteam_link{
 }
 
 
-#fabrication_team_1_txt,#fabrication_team_3_txt{
-  flex:1.5;
-  order:1;
-  margin-right: 40px;
-  color: black;
-}
-#fabrication_team_1_image,#fabrication_team_3_image{
-  width:400px;
-  height:400px;
-  border-radius: 50%;
-  flex:1;
-  order:2;
-  margin-left: 40px;
-  margin-bottom: 25px;
-}
-#fabrication_team_2_txt,#fabrication_team_4_txt{
-  flex:1.5;
-  order:2;
-  margin-left: 40px;
-}
-#fabrication_team_2_image,#fabrication_team_4_image{
-  width:400px;
-  height:400px;
+#fabrication_team_1_txt, #fabrication_team_2_text, #fabrication_team_3_txt, #fabrication_team_4_text{
   flex:1;
   order:1;
   margin-right: 40px;
-  margin-bottom: 25px;
 }
+#fabrication_team_1_image, #fabrication_team_3_image, #fabrication_team_2_image, #fabrication_team_4_image {
+  width:400px;
+  height:400px;
+  flex:1;
+  order:2;
+  margin-left: 40px;
+}
+.fabrication_team_members{
+  flex:1;
+  order:3;
+  margin-left: 40px;
+  margin-bottom: 25px;
+  padding:20px;
+}
+.fabrication_team_members li{
+  padding:20px;
+}
+
 
 
 
