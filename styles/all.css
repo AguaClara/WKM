@@ -405,7 +405,7 @@ background-image: url("../images/joinus1.jpg"); */
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-position: relative; */
+position: relative;
 }
 .joinus_testimonial1{
 display: flex;
@@ -417,16 +417,56 @@ justify-content: flex-start;
 flex: 1;
 order: 0;
 padding: 20px;
+height: 50%;
+width: 30%;
+
+}
+.joinus_testimonial_image_2{
+justify-content: flex-start;
+flex: 1;
+order: 0;
+padding: 20px;
 }
 .joinus_testimonial_paragraph{
 flex: 1;
 order: 0;
 padding: 20px;
 }
-.joinus_testimonial_image{
-height: 50%;
-width: 30%;
-
+.joinus_testimonial_paragraph_2{
+flex: 1;
+order: 1;
+padding: 20px;
+}
+.joinus_banner{
+  background-image: url("../images/joinus1.jpg");
+  height:50%;
+  margin-top: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom:30px;
+  opacity: .95;
+}
+.joinus_title{
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 50%;
+  padding-top: 60px;
+  text-shadow: 0px 0px 3px black;
+}
+.joinus_txt{
+  font-weight: 400;
+  width:800px;
+  font-size: 17px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position:absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 0px 0px 3px black;
 }
 p{
   font-family: 'Lato', sans-serif;
