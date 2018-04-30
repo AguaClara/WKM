@@ -27,7 +27,9 @@
 </div>
 
   <div>
+<div class = "joinus_mission_title">
     <h2 class="green"> Why should you join our mission?</h2>
+</div>
     <div class="joinus_container_testimonial">
       <div class = "joinus_testimonial1">
 <div class="joinus_testimonial_paragraph">
