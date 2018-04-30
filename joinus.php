@@ -16,21 +16,20 @@
 </head>
 <body>
   <?php include("includes/nav.php");?>
-  <h1 class= "joinus_title">Join Us </h1>
 <div class="joinus_banner">
-</div>
-
-<div>
-    <p> The research, invention, and design project courses specific to AguaClara are
+  <h1 class= "joinus_title">Join Us </h1>
+    <p class = "joinus_txt"> The research, invention, and design project courses specific to AguaClara are
       focused on developing technology that can be used to improve the drinking water
       quality of surface water sources in the Global South. The program is structured
       to allow students with different levels of expertise to collaborate, invent, and
       change the world.
     </p>
-  </div>
+</div>
 
   <div>
+<div class = "joinus_mission_title">
     <h2 class="green"> Why should you join our mission?</h2>
+</div>
     <div class="joinus_container_testimonial">
       <div class = "joinus_testimonial1">
 <div class="joinus_testimonial_paragraph">
@@ -51,7 +50,27 @@
       </div>
     </div>
 
-    <div>
+    <div class="joinus_container_testimonial">
+      <div class = "joinus_testimonial1">
+    <div class="joinus_testimonial_paragraph_2">
+        <p class = "joinus_description"> “Being surrounded by so many people who are equally committed to using
+          engineering to benefit communities is incredible. It has been so special to
+          do research, watch the implementation of the team’s hard work, and have the
+          opportunity to visit plants in Honduras. AguaClara has inspired a change in
+          my career path to focus more on safe water."
+        </p>
+    </div>
+        <div class = "joinus_testimonial_image_2">
+          <div>
+            <img class="testimonial_image" alt="clare" src="images/clare1.png"/>
+          </div>
+          <p> - Clare O'Connor, Environmental Engineering '18 </p>
+        </div>
+      </div>
+    </div>
+
+</div>
+    <!-- <div>
       <div class = "joinus_testimonial1">
 
         <div class="joinus_testimonial_paragraph">
@@ -63,9 +82,9 @@
           my career path to focus more on safe water."
         </p>
 </div>
-      </div>
+      </div> -->
 
-      <div class = "joinus_testimonial_image">
+      <!-- <div class = "joinus_testimonial_image">
       <div>
         <img class="testimonial_image" alt="clare" src="images/clare1.png"/>
       </div>
@@ -75,12 +94,12 @@
 
     </div>
   </div>
-
+ -->
 
   <div>
     <h2 class="blue"> Courses </h2>
     <p>Joining Aguaclara as an undergraduate project
-      team member requires you to take <span class= "joinus_bold">CEE 2550</span> to
+      team member requires you to take <span class= "joinus_bold">CEE 2550 </span>  to
       gain credit for the research conducted.
     </p>
 <nav class = "joinus_courses">
