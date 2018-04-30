@@ -16,9 +16,11 @@
 </head>
 <body>
   <?php include("includes/nav.php");?>
-  <h1>Join Us </h1>
-  <img class="banner" alt="banner" src="images/joinus1.jpg"/>
-  <div>
+  <h1 class= "joinus_title">Join Us </h1>
+<div class="joinus_banner">
+</div>
+
+<div>
     <p> The research, invention, and design project courses specific to AguaClara are
       focused on developing technology that can be used to improve the drinking water
       quality of surface water sources in the Global South. The program is structured
@@ -28,7 +30,7 @@
   </div>
 
   <div>
-    <h2> Why should you join our mission?</h2>
+    <h2 class="green"> Why should you join our mission?</h2>
     <div class="joinus_container_testimonial">
       <div class = "joinus_testimonial1">
 <div class="joinus_testimonial_paragraph">
@@ -52,7 +54,6 @@
     <div>
       <div class = "joinus_testimonial1">
 
-      <div>
         <div class="joinus_testimonial_paragraph">
 
         <p> “Being surrounded by so many people who are equally committed to using
@@ -77,11 +78,12 @@
 
 
   <div>
-    <h2> Courses  </h2>
+    <h2 class="blue"> Courses </h2>
     <p>Joining Aguaclara as an undergraduate project
-      team member requires you to take <p class= "joinus_bold">CEE 2550</p> to
+      team member requires you to take <span class= "joinus_bold">CEE 2550</span> to
       gain credit for the research conducted.
     </p>
+<nav class = "joinus_courses">
     <ul>
       <li>CEE 2550: AguaClara: Sustainable Water Supply Project</li>
       <li>CEE 4540: Sustainable Municipal Drinking Water Treatment</li>
@@ -90,6 +92,7 @@
         Engineering</li>
         <li>International Student Research Internships</li>
       </ul>
+</nav>
     </div>
 
     <div>
