@@ -9,16 +9,16 @@
     <div class= "collapse navbar-collapse" id="navbarResponsive">
       <ul class= "navbar-nav ml-auto">
         <li class= "nav-item">
-          <a class= "nav-link" href="index.php">Home</a>
+          <a class= "nav-link" href="index.php">Home </a>
         </li>
         <li class= "nav-item">
-          <a class= "nav-link" href="about.php">About</a>
+          <a class= "nav-link" href="about.php"> About </a>
         </li>
         <li class= "nav-item">
-          <a class= "nav-link" href="#">Impact</a>
+          <a class= "nav-link" href="#">Impact  </a>
         </li>
         <li class= "nav-item">
-          <a class= "nav-link" href="joinus.php">Join Us</a>
+          <a class= "nav-link" href="joinus.php">Join Us  </a>
         </li>
         <li class= "nav-item">
           <a class= "nav-link" href="#">Contact</a>
