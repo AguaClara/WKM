@@ -155,20 +155,52 @@ h2, .green{
 
 /* // shoshana css */
 
+.banner{
+width: 70%;
+height: 50%;
+background-image: url("../images/joinus1.jpg");
 
-.joinus_container_testimonial{
-  display: flex;
+/* Set a specific height */
+height: 50%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.joinus_testimonial1{
+display: flex;
+flex-direction: row;
 }
 
-.joinus_testimonial1_image{
+.joinus_testimonial_image{
 justify-content: flex-start;
+flex: 1;
+order: 0;
+padding: 20px;
+}
+.joinus_testimonial_paragraph{
+flex: 1;
+order: 0;
+padding: 20px;
 }
 .joinus_testimonial_image{
-height: 20%;
+height: 50%;
 width: 30%;
 
 }
 p{
   font-family: 'Lato', sans-serif;
+padding: 20px;
+font-size: 20px;
+margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
 
+}
+.joinus_bold{
+font-style: italic;
 }
