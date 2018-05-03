@@ -424,16 +424,23 @@ justify-content: flex-start;
 flex: 1;
 order: 0;
 height: 80%;
-width: 70%;
+width: 80%;
 margin-left: 20px;
 margin-top: 20px;
+
 
 }
 .joinus_testimonial_image_2{
 justify-content: flex-start;
-flex: 1;
+flex: 2;
 order: 0;
-padding: 20px;
+/* padding: 20px; */
+height: 90%;
+width: 90%;
+margin-left: 20px;
+margin-top: 20px;
+
+/* margin-top: 20px; */
 }
 .joinus_testimonial_paragraph{
   justify-content: flex-start;
@@ -441,15 +448,16 @@ flex: 1;
 order: 0;
 margin-top: 90px;
 margin-left: 20px;
+padding-left: 20px;
+padding-right: 20px;
 /* padding: 20px; */
 }
 .joinus_testimonial_paragraph_2{
-flex: 1;
+flex: 2;
 order: 1;
-flex: 1;
-order: 0;
 margin-top: 90px;
 margin-left: 20px;
+
 }
 .joinus_banner{
   background-image: url("../images/StudentsWorkingLab_wide.jpg");
@@ -470,7 +478,7 @@ margin-left: 20px;
   padding-top: 60px;
   text-shadow: 0px 0px 3px black;
 }
-.joinus_txt{
+/* .joinus_txt{
   font-weight: 400;
   width:800px;
   font-size: 17px;
@@ -481,7 +489,7 @@ margin-left: 20px;
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 0px 0px 3px black;
-}
+} */
 .joinus_bold{
 font-style: italic;
 }
@@ -489,4 +497,55 @@ font-style: italic;
 align-content: center;
 align-items: center;
 display: block;
+}
+.joinus_hammock{
+  max-width: 100%;
+  width: auto;
+  /* height: auto; */
+  margin-right: 25%;
+  margin-left: 25%;
+    max-height: 100%;
+  align-items: center;
+width: 50%;
+padding-bottom: 20px;
+  }
+.joinus_description{
+margin-left: 10%;
+align-content: center;
+align-self: center;
+display: block;
+margin-right: 10%;
+padding: 30px;
+text-align: center;
+line-height: 28px;
+/* font-size: 17px; */
+
+}
+.joinus_why{
+  color:#6fc460;
+  /* align-items: center; */
+  /* margin-right: 25%; */
+  margin-left: 25%;
+margin-right: 25%;
+padding: 30px;
+text-align: center;
+}
+.joinus_courses{
+  margin-left: 25%;
+margin-right: 25%;
+padding: 30px;
+text-align: center;
+color: #3ebeda;
+
+
+}
+.joinus_name{
+margin-left: 15%;
+margin-right: 10%;
+font-style: italic;
+padding-right: 20px;
+padding-left:20px;
+}
+.joinus_container_testimonial{
+padding:20px;
 }
