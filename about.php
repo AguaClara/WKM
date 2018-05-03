@@ -64,15 +64,18 @@
 
 <h2 id= "about_subteams" class="blue"> AguaClara Cornell Subteams <h2>
 <div id="Subteams_Container">
+  
     <div id= "Subteams_SubC1">
 
       <div id="GoingGlobal">
-        <h2  class="about_subteam_link"> <a href=going_global.php>Going Global</a> </h2>
+        <a href=going_global.php>
+        <h2  class="about_subteam_link"> Going Global </h2>
       </div>
 
       <div id="Lab_Research">
-        <h2 h2 class="about_subteam_link"> <a href=lab_and_research.php>Lab and Research</a> </h2>
-
+        <a href=lab_and_research.php>
+        <h2 class="about_subteam_link"> Lab and Research </h2>
+        </a>
     </div>
 
   </div>
@@ -80,13 +83,16 @@
     <div id="Subteams_SubC2">
 
       <div id="Apps_and_Algorithms">
-        <h2 class="about_subteam_link"> <a href=apps_and_algorithms.php>Apps and Algorithms</a> </h2>
-
+         <a href=apps_and_algorithms.php>
+        <h2 class="about_subteam_link">Apps and Algorithms </h2>
+        </a>
       </div>
 
       <div id="Fabrication">
-        <h2 class="about_subteam_link"> <a href=fabrication.php>Fabrication</a> </h2>
-    
+         <a href=fabrication.php>
+        <h2 class="about_subteam_link">Fabrication </h2>
+        </a>
+
       </div>
 
     </div>

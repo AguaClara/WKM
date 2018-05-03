@@ -172,11 +172,19 @@ nav li{
   font-size: 14px;
   margin-top: 15px;
 }
-a:link, a:visited, .about_subteam_link{
+a:link, a:visited{
   color:white;
   text-align: center;
   font-size: 35px;
 }
+
+.about_subteam_link{
+  color:white;
+  text-align: center;
+  font-size: 80px;
+  padding: 14%;
+}
+
 
 #about_banner {
   background-image: url("../images/about_banner.jpg");
@@ -214,10 +222,9 @@ a:link, a:visited, .about_subteam_link{
 }
 
 
-#Subteams_Container, #ST_Container{
+#Subteams_Container{
   display: flex;
   flex-direction: column;
-  margin: 30px;
 }
 #Subteams_SubC1, #Student4{
   flex:1;
@@ -241,6 +248,10 @@ a:link, a:visited, .about_subteam_link{
 }
 
 #GoingGlobal{
+  background-image: url("../images/global_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  50% 70%;
   width: 450px;
   height:450px;
   background-color:#1A4F5A;
@@ -249,25 +260,37 @@ a:link, a:visited, .about_subteam_link{
 }
 
 #Apps_and_Algorithms{
+  background-image: url("../images/apps_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  50% 70%;
   width: 450px;
   height:450px;
-  background-color: #6FC460;
+  background-color: #1B7169;
   border-bottom: 4px solid white;
   border-right: 4px solid white;
 }
 
 #Lab_Research{
+  background-image: url("../images/lab_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  50% 70%;
   width: 450px;
   height:450px;
-  background-color: #83CFE0;
+  background-color: #1B4C71;
   border-bottom: 4px solid white;
   border-right: 4px solid white;
 }
 
 #Fabrication{
+  background-image: url("../images/building_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  50% 70%;
   width: 450px;
   height:450px;
-  background-color:#12380B;
+  background-color:#196749;
   border-bottom: 4px solid white;
   border-right: 4px solid white;
 }
@@ -282,24 +305,8 @@ a:link, a:visited, .about_subteam_link{
   display: flex;
   flex-direction: row;
   margin:40px;
+  background-color: #FAFAFA;
 }
-.fabrication_boarder{
-  height: 15px;
-  background:
-  linear-gradient(135deg, white 22px, white 24px, transparent 24px, transparent 67px, white 67px, white 69px, transparent 69px),
-  linear-gradient(225deg,  white 22px, white 24px, transparent 24px, transparent 67px, white 67px, white 69px, transparent 69px)0 64px;
-  background-color:#83CFE0;
-  background-size: 64px 128px
-}
-.fabrication_boarder_2{
-  height: 15px;
-  background:
-  linear-gradient(135deg, white 22px, white 24px, transparent 24px, transparent 67px, white 67px, white 69px, transparent 69px),
-  linear-gradient(225deg,  white 22px, white 24px, transparent 24px, transparent 67px, white 67px, white 69px, transparent 69px)0 64px;
-  background-color:#6FC460;
-  background-size: 64px 128px
-}
-
 
 #fabrication_team_1_txt, #fabrication_team_2_text, #fabrication_team_3_txt, #fabrication_team_4_text{
   flex:1;

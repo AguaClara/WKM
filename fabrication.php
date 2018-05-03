@@ -22,6 +22,7 @@
 <h2 class="blue">Horizontal Filtration</h2>
 <div class= "fabrication_boarder"> </div>
 <div class="fabrication_team_container">
+
   <div id="fabrication_team_1_txt">
     <p>Horizontal filtration is a completely new innovation for the AguaClara team, arising
       from a desire to make the 1 L/s plants easier to make and ship by eliminating the
@@ -31,7 +32,7 @@
       semester are to begin design and fabrication of a horizontal flow filter. This will involve characterization
       of key parameters, using Fusion360 to make a model of the system, and fabrication of a prototype. </p>
     </div>
-    <img src="images/horizontal_filtration.jpg" id="fabrication_team_1_image" alt = "Horizontal Filtration">
+
     <div class="fabrication_team_members">
     <h3> Members: </h3>
     <ul>
