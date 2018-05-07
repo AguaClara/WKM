@@ -17,13 +17,14 @@
   <!--Nav Bar-->
    <?php include("includes/nav.php");?>
 
-<h1 id="fabrication_title"> Fabrication Subteams </h1>
-
+<div id= "fabrication_banner">
+  <h1 id="fabrication_title"> Fabrication Subteams </h1>
+</div>
+<div class="fabrication_color1">
 <h2 class="blue">Horizontal Filtration</h2>
-<div class= "fabrication_boarder"> </div>
-<div class="fabrication_team_container">
 
-  <div id="fabrication_team_1_txt">
+<div class="fabrication_team_container">
+  <div class="fabrication_txt">
     <p>Horizontal filtration is a completely new innovation for the AguaClara team, arising
       from a desire to make the 1 L/s plants easier to make and ship by eliminating the
       Enclosed Stacked Rapid Sand Filter. To create a horizontal filter, aspects of the
@@ -42,11 +43,13 @@
     </ul>
   </div>
 </div>
+</div>
 
+
+<div class="fabrication_color2">
 <h2 class="green">Sensor Development </h2>
-<div class= "fabrication_boarder_2"> </div>
 <div class="fabrication_team_container">
-  <div id="fabrication_team_2_txt">
+  <div class="fabrication_txt">
     <p>The goal of the Sensor Development subteam is to create sensors that help monitor water quality
        during the water treatment process, for the purpose of improving experimentation in other subteams
        and facilitating the work of plant operators. In particular, the team has been working on a particle
@@ -56,7 +59,6 @@
         Two different designs based on an endoscope and a pre-developed turbidity sensor will be tested
         to measure the height of the sludge blanket in the sedimentation tanks.<p>
     </div>
-  <img src="images/horizontal_filtration.jpg" id="fabrication_team_2_image" alt = "Sensor Development">
   <div class="fabrication_team_members">
   <h3> Members: </h3>
   <ul>
@@ -66,11 +68,12 @@
   </ul>
 </div>
 </div>
+</div>
 
+<div class="fabrication_color1">
 <h2 class="blue">High Flow Float Valve </h2>
-<div class= "fabrication_boarder"> </div>
 <div class="fabrication_team_container">
-  <div id="fabrication_team_3_txt">
+  <div class="fabrication_txt">
     <p> High Flow Float Valve is a fabrication team that will fabricate a float valve to
       alleviate distribution tank overflow during off-peak hours. The high flow float valve will control
       the flow rate of water into the distribution tank. The distribution tank is the storage tank for clean
@@ -89,20 +92,20 @@
    </ul>
 
   </div>
-  <img src="images/ram_pump.jpg" id="fabrication_team_3_image" alt = "High Flow Float Valve">
+</div>
 </div>
 
-<h2 class="green">Ram Pump</h2>
-<div class= "fabrication_boarder_2"> </div>
+<div class="fabrication_color2">
+<h2 class = "fabrication_team_name" class="green">Ram Pump</h2>
 <div class="fabrication_team_container">
-  <div id="fabrication_team_4_txt">
+  <div class="fabrication_txt">
     <p> The purpose of the Ram Pump team is to design and develop a properly functioning hydraulic ram pump,
       or hydram, for implementation in AguaClara plants. The hydram can be used to deliver water from below
        the facility back to the top for utilization in chemical stock tanks or to collect water at higher
        elevations for alternative uses.<p>
 
        </div>
- <div class="fabrication_team_members">
+  <div class="fabrication_team_members">
      <h3> Members: </h3>
      <ul>
        <li>Maile McCann | mm2498@cornell.edu </li>
@@ -111,7 +114,7 @@
 
      </ul>
   </div>
-  <img src="images/ram_pump.jpg" id="fabrication_team_4_image" alt = "Ram Pump">
+</div>
 </div>
 
 </body>
