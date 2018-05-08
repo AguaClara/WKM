@@ -298,7 +298,7 @@ a:link, a:visited{
 
 #about_banner {
   background-image: url("../images/about_banner.jpg");
-  height:50%;
+  height:60%;
   margin-top: 10px;
   background-position: center;
   background-size: cover;
@@ -323,7 +323,7 @@ a:link, a:visited{
   padding-top:55px;
   padding-left: 20%;
   padding-right: 20%;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 #about_Who_We_Are_txt{
   font-size: 28px;
