@@ -10,8 +10,25 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <title>Fabrication</title>
 
+  <script>
+  $(document).ready(function(){
+    $("#fabrication_team1").click(function(){
+      $("#fabrication_team_container1").toggle(1000);
+    })
+    $("#fabrication_team2").click(function(){
+      $("#fabrication_team_container2").toggle(1000);
+    })
+    $("#fabrication_team3").click(function(){
+      $("#fabrication_team_container3").toggle(1000);
+    })
+    $("#fabrication_team4").click(function(){
+      $("#fabrication_team_container4").toggle(1000);
+    })
+  });
+  </script>
+
+  <title>Fabrication</title>
 </head>
 <body>
   <!--Nav Bar-->
@@ -20,10 +37,11 @@
 <div id= "fabrication_banner">
   <h1 id="fabrication_title"> Fabrication Subteams </h1>
 </div>
-<div class="fabrication_color1">
-<h2 class="blue">Horizontal Filtration</h2>
 
-<div class="fabrication_team_container">
+
+<div class="fabrication_color1">
+<h2 class="blue" id="fabrication_team1"> Horizontal Filtration </h2>
+<div class="fabrication_team_container" id="fabrication_team_container1">
   <div class="fabrication_txt">
     <p>Horizontal filtration is a completely new innovation for the AguaClara team, arising
       from a desire to make the 1 L/s plants easier to make and ship by eliminating the
@@ -32,9 +50,8 @@
       backwash and operational speed, as well as the design of the plate settlers. Our goals for the
       semester are to begin design and fabrication of a horizontal flow filter. This will involve characterization
       of key parameters, using Fusion360 to make a model of the system, and fabrication of a prototype. </p>
-    </div>
 
-    <div class="fabrication_team_members">
+
     <h3> Members: </h3>
     <ul>
       <li>Clare O'Connor | ceo45@cornell.edu </li>
@@ -47,8 +64,8 @@
 
 
 <div class="fabrication_color2">
-<h2 class="green">Sensor Development </h2>
-<div class="fabrication_team_container">
+<h2 class="green" id="fabrication_team2">Sensor Development </h2>
+<div class="fabrication_team_container" id="fabrication_team_container2">
   <div class="fabrication_txt">
     <p>The goal of the Sensor Development subteam is to create sensors that help monitor water quality
        during the water treatment process, for the purpose of improving experimentation in other subteams
@@ -58,8 +75,7 @@
         The submersible solids detector is the main focus for the team this semester.
         Two different designs based on an endoscope and a pre-developed turbidity sensor will be tested
         to measure the height of the sludge blanket in the sedimentation tanks.<p>
-    </div>
-  <div class="fabrication_team_members">
+
   <h3> Members: </h3>
   <ul>
     <li>Lois Lee | LL556@cornell.edu </li>
@@ -71,8 +87,8 @@
 </div>
 
 <div class="fabrication_color1">
-<h2 class="blue">High Flow Float Valve </h2>
-<div class="fabrication_team_container">
+<h2 class="blue" id="fabrication_team3" >High Flow Float Valve </h2>
+<div class="fabrication_team_container" id="fabrication_team_container3">
   <div class="fabrication_txt">
     <p> High Flow Float Valve is a fabrication team that will fabricate a float valve to
       alleviate distribution tank overflow during off-peak hours. The high flow float valve will control
@@ -81,8 +97,7 @@
        is full. Overflow happens mainly during off-peak hours from midnight to dawn when demand is low.
        Avoiding overflow is desirable because the excess treated drinking water is wasted.
        To avoid the tank overflowing, the float valve will decrease the flow rate as the tank fills up.</p>
-     </div>
-     <div class="fabrication_team_members">
+
    <h3> Members: </h3>
    <ul>
      <li>Felix Yang | fyy2@cornell.edu  </li>
@@ -96,16 +111,14 @@
 </div>
 
 <div class="fabrication_color2">
-<h2 class = "fabrication_team_name" class="green">Ram Pump</h2>
-<div class="fabrication_team_container">
+<h2  class="green" id="fabrication_team4">Ram Pump</h2>
+<div class="fabrication_team_container" id="fabrication_team_container4">
   <div class="fabrication_txt">
     <p> The purpose of the Ram Pump team is to design and develop a properly functioning hydraulic ram pump,
       or hydram, for implementation in AguaClara plants. The hydram can be used to deliver water from below
        the facility back to the top for utilization in chemical stock tanks or to collect water at higher
        elevations for alternative uses.<p>
 
-       </div>
-  <div class="fabrication_team_members">
      <h3> Members: </h3>
      <ul>
        <li>Maile McCann | mm2498@cornell.edu </li>

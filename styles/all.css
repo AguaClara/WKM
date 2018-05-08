@@ -35,6 +35,8 @@ p{
 }
 li{
   list-style-type: circle;
+  font-size: 18px;
+  font-weight: lighter;
 }
 nav li{
   list-style-type: none;
@@ -140,6 +142,7 @@ figure{
   order:1;
   margin-right: 40px;
   padding-top:40px;
+  padding-left: 20px;
 }
 #about_Monroe_image{
   width:400px;
@@ -323,9 +326,9 @@ a:link, a:visited{
   background-size:  100% 100%;
   position: relative;
   height:50%;
-  margin-bottom:35px;
   margin-top: 10px;
   opacity: .95;
+  margin-bottom: 15px;
 }
 #fabrication_title{
   color:white;
@@ -343,14 +346,34 @@ a:link, a:visited{
   text-align: center;
   margin-top:20px;
 }
-
+.fabrication_color1{
+  padding-top:15px;
+}
 .fabrication_color2{
+  padding-top:15px;
   background-color: #FAFAFA;
 }
 .fabrication_team_container{
+  padding-left:40px;
+  padding-right:40px;
+  display:none;
+}
+
+.fabrication_txt{
+  line-height: 30px;
+  padding-top:30px;
+  padding-left:20%;
+  padding-right:20%;
+  padding-bottom:30px;
+  color:white;
+  background-color:#196749;
+  opacity: .75;
+}
+/* .fabrication_team_container{
   display: flex;
   flex-direction: row;
   padding:40px;
+  display:none;
 }
 
 .fabrication_txt{
@@ -366,13 +389,14 @@ a:link, a:visited{
   margin-left: 40px;
   margin-bottom: 25px;
   padding:20px;
-}
+} */
 .fabrication_team_members li{
   padding:20px;
 }
 
-
-
+#fabrication_team1, #fabrication_team2, #fabrication_team3, #fabrication_team4{
+  cursor:pointer;
+}
 
 
 
