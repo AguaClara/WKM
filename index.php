@@ -21,82 +21,79 @@
 <body>
 
  <?php include("includes/nav.php");?>
-<!-- Images banner -->
-<div id="slides" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#slides" data-slide-to="0" class="active"></li>
-    <li data-target="#slides" data-slide-to="1"></li>
-    <li data-target="#slides" data-slide-to="2"></li>
-  </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/banner_homepage.JPG">
-    </div>
-    <div class="carousel-item">
-      <img src="images/banner2_homepage.jpg">
-    </div>
-    <div class="carousel-item">
-      <img src="images/banner3_homepage.jpg">
-    </div>
-  </div>
-</div>
+ 
+ <!-- landing page-->
+ <div class="landing-page">
+   <div class="landing-text">
+     <h1 class="white">Research . Invent . Design . Engage</h1>
+   </div>
+ </div>
 
-<!-- jumbotron -->
+ <!-- facts -->
 
-<div class="container-fluid">
-  <div class="text-center row jumbotron">
-    <div class="col-12">
-      <h2 class="green"> Reasearch . Invent . Design . Engage </h2>
-    </div>
-  </div>
-  <hr>
-</div>
+ <div class="facts container-fluid">
+   <div class="row">
+     <div class="col-lg-6">
+       <img src="images/facts_homepage.jpeg" class="img-fluid mx-auto d-block">
+     </div>
+     <div class="col-lg-6 text-center">
+        <div class="home_highlight_fact">Nearly 3 billion people</div> <p>in the world do not have access to clean and safe drinking water.</p>
+        <div class="home_highlight_fact">1,000 children</div> <p>die everyday due to water related diarrheal diseases.</p>
+        <div class="home_highlight_fact">More than 80%</div><p> of our wastewater is discharged back to the environment without proper treatment.</p>
+     </div>
+   </div>
+ </div>
 
-<!-- facts -->
+ <!-- jumbotron -->
 
-<div class="facts container-fluid padding">
-  <div class="row">
-    <div class="col-md-6 col-lg-6">
-      <img src="images/facts_homepage.jpeg" class="img-fluid mx-auto d-block">
-    </div>
-    <div class="col-md-6 col-lg-6">
-       <div class="home_highlight_fact">Nearly 3 billion people</div> <p>in the world do not have access to clean and safe drinking water.</p>
-       <div class="home_highlight_fact">1,000 children</div> <p>die everyday due to water related diarrheal diseases.</p>
-       <div class="home_highlight_fact">More than 80%</div><p> of our wastewater is discharged back to the environment without proper treatment.</p>
-    </div>
-  </div>
-  <hr>
-</div>
+ <div class="container-fluid">
+   <div class="text-center row jumbotron greybg">
+     <div class="col-12">
+       <h2 class="green">We want to change this.</h2>
+     </div>
+   </div>
+ </div>
 
-<!-- jumbotron -->
+ <!-- Mission statement -->
 
-<div class="container-fluid">
-  <div class="text-center row jumbotron change">
-    <div class="col-12">
-      <h2 class="green">We want to change this.</h2>
-    </div>
-  </div>
-  <hr>
-</div>
+ <div class="container-fluid">
+   <div class="row mission">
+     <div class="col-lg-7">
+       <h2 class="blue text-center" id="info">Our mission</h2>
+       <br>
+       <p id="info">AguaClara Cornell researches, invents, and designs resilient, gravity-powered, community-managed water treatment technologies for villages, towns, and cities. </p>
+       <p id="info"> Students lead the innovation process, learn from each other, and foster a collaborative environment where diversity is cherished, failures are learning opportunities, and where success is shared. </p>
+       <p id="info"> We work with partner organizations who implement AguaClara technologies to provide reliable <i> safe water on tap </i>to whole communities.</p>
+       <br>
+     </div>
+     <div class="col-lg-5">
+       <img src="images/mission_homepage.jpg" class="img-fluid">
+     </div>
+   </div>
+ </div>
 
-<!-- Mission statement -->
+ <!-- Video -->
 
-<div class="container-fluid padding">
-  <div class="row padding mission">
-    <div class="col-lg-6 misstatement">
-      <h2 class="blue">Our mission</h2>
-      <br>
-      <p>AguaClara Cornell researches, invents, and designs resilient, gravity-powered, community-managed water treatment technologies for villages, towns, and cities. </p>
-      <p> Students lead the innovation process, learn from each other, and foster a collaborative environment where diversity is cherished, failures are learning opportunities, and where success is shared. </p>
-      <p> We work with partner organizations who implement AguaClara technologies to provide reliable <i> safe water on tap </i>to whole communities.</p>
-        <br>
-    </div>
-    <div class="col-lg-6">
-      <img src="images/mission_homepage.jpg" class="img-fluid">
-    </div>
-  </div>
-  <hr>
-</div>
+ <div class="container-fluid video greybg">
+   <div class="text-center row">
+     <div class="col-lg-12 videotitle">
+       <h2 class="green text-center">Our story</h2>
+     </div>
+     <div class="col-md-11 col-lg-8 col-xl-6 videowrapper">
+       <div class="embed-responsive embed-responsive-16by9">
+           <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/czCkQHly5do?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       </div>
+     </div>
+   </div>
+ </div>
+
+<!-- footer -->
+
+
+ <!--javascript-->
+
+<script src="js/navbar_scroll.js"></script>
+<script src="js/navbar_active.js"></script>
 
 
 
