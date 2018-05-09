@@ -681,3 +681,25 @@ padding-left:20px;
 .joinus_container_testimonial{
 padding:20px;
 }
+#joinus_info_header{
+text-align: center;
+margin-left: 25%;
+margin-right: 25%;
+}
+.joinus_recruitment{
+text-align: center;
+}
+.class1{
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  background: #13b4ff;
+}
+.class2{
+  float: right;
+  width: 300px;
+  height: 300px;
+margin-left: 25%;
+  background: #13b4ff;
+}
