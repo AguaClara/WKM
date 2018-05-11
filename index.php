@@ -1,7 +1,3 @@
-<?
-  const $home_video_link = "https://drive.google.com/open?id=1jI28KBgRqN-Q39DEkDVtcf_0eKMnTXN_";
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,12 +16,15 @@
 
 <body>
 
- <?php include("includes/nav.php");?>
- 
+<!-- nav bar -->
+
+ <?php include("includes/nav_index.php");?>
+
  <!-- landing page-->
+
  <div class="landing-page">
    <div class="landing-text">
-     <h1 class="white">Research . Invent . Design . Engage</h1>
+     <h1 class="white">Research . Invent . Design</h1>
    </div>
  </div>
 
@@ -44,10 +43,10 @@
    </div>
  </div>
 
- <!-- jumbotron -->
+ <!-- message -->
 
- <div class="container-fluid">
-   <div class="text-center row jumbotron greybg">
+ <div class="container-fluid message greybg">
+   <div class="text-center row">
      <div class="col-12">
        <h2 class="green">We want to change this.</h2>
      </div>
@@ -61,10 +60,7 @@
      <div class="col-lg-7">
        <h2 class="blue text-center" id="info">Our mission</h2>
        <br>
-       <p id="info">AguaClara Cornell researches, invents, and designs resilient, gravity-powered, community-managed water treatment technologies for villages, towns, and cities. </p>
-       <p id="info"> Students lead the innovation process, learn from each other, and foster a collaborative environment where diversity is cherished, failures are learning opportunities, and where success is shared. </p>
-       <p id="info"> We work with partner organizations who implement AguaClara technologies to provide reliable <i> safe water on tap </i>to whole communities.</p>
-       <br>
+       <p id="info">AguaClara Cornell upholds and protects the fundamental human right to access safe drinking water. We are committed to the ongoing development of resilient, gravity-powered drinking water and wastewater treatment technologies. Students lead the innovation process, learn from each other, and foster a collaborative environment where diversity is celebrated, failures are learning opportunities, and success is shared. We research, invent, and design technologies that are implemented by partner organizations and managed by communities to bring <i>safe water on tap</i>!</p>
      </div>
      <div class="col-lg-5">
        <img src="images/mission_homepage.jpg" class="img-fluid">
@@ -81,7 +77,7 @@
      </div>
      <div class="col-md-11 col-lg-8 col-xl-6 videowrapper">
        <div class="embed-responsive embed-responsive-16by9">
-           <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/czCkQHly5do?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+           <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/YtW1DUVJ0SE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
        </div>
      </div>
    </div>
@@ -89,13 +85,42 @@
 
 <!-- footer -->
 
+<div class="container-fluid footer text-center footer-text">
+  <div class="row footer-col">
+    <div class="footer-link col-md-1 col-lg-1">
+      <a href="index.php"><p>Home</p></a>
+    </div>
+    <div class="footer-link col-md-1 col-lg-1">
+      <a href="about.php"><p>About</p></a>
+    </div>
+    <div class="footer-link col-md-2 col-lg-1">
+      <a href="#"><p>Impact</p></a>
+      <a href="#"><p>Honduras</p></a>
+      <a href="#"><p>India</p></a>
+      <a href="#"><p>Nicaragua</p></a>
+    </div>
+    <div class="footer-link col-md-1 col-lg-1">
+      <a href="joinus.php"><p>Join</p></a>
+    </div>
+    <div class="footer-link col-md-1 col-lg-1">
+      <a href="#"><p>Contact</p></a>
+    </div>
+    <div class="col-md-2 offset-md-3 col-lg-3 offset-lg-4 social">
+      <p>Connect</p>
+      <a href="https://www.facebook.com/CUAguaClara/"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/cuaguaclara?lang=en"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/cuaguaclara/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/aguaclara-at-cornell"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <p class="copyright">&copy AguaClara Cornell</p>
+  </div>
+</div>
 
  <!--javascript-->
 
 <script src="js/navbar_scroll.js"></script>
-<script src="js/navbar_active.js"></script>
-
-
 
 </body>
 
