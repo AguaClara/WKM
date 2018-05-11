@@ -39,6 +39,7 @@ p{
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   line-height: 24px;
+  font-weight:lighter;
 }
 
 li{
@@ -486,6 +487,7 @@ a:link, a:visited{
 
 #fabrication_team1, #fabrication_team2, #fabrication_team3, #fabrication_team4{
   cursor:pointer;
+  text-align: center;
 }
 
 

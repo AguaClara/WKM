@@ -21,11 +21,11 @@
 <body>
 
  <?php include("includes/nav.php");?>
- 
+
  <!-- landing page-->
  <div class="landing-page">
    <div class="landing-text">
-     <h1 class="white">Research . Invent . Design . Engage</h1>
+     <h1 class="white">Research . Invent . Design</h1>
    </div>
  </div>
 
@@ -61,9 +61,15 @@
      <div class="col-lg-7">
        <h2 class="blue text-center" id="info">Our mission</h2>
        <br>
-       <p id="info">AguaClara Cornell researches, invents, and designs resilient, gravity-powered, community-managed water treatment technologies for villages, towns, and cities. </p>
-       <p id="info"> Students lead the innovation process, learn from each other, and foster a collaborative environment where diversity is cherished, failures are learning opportunities, and where success is shared. </p>
-       <p id="info"> We work with partner organizations who implement AguaClara technologies to provide reliable <i> safe water on tap </i>to whole communities.</p>
+       <p id="info">AguaClara Cornell upholds and protects the
+         fundamental human right to access safe drinking water.
+         We are committed to the ongoing development of resilient, gravity-powered
+          drinking water and wastewater treatment technologies.
+           Students lead the innovation process, learn from each
+            other, and foster a collaborative environment where diversity is celebrated,
+            failures are learning opportunities, and success is shared. We research, invent,
+             and design technologies that are implemented by partner organizations and managed by
+             communities to bring <i>safe water on tap!</i></p>
        <br>
      </div>
      <div class="col-lg-5">

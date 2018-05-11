@@ -46,7 +46,7 @@
   <p> He has guided the AguaClara team to invent a series of technologies that together make
     it possible to produce safe drinking water without using any electricity.</p>
   </div>
-  <img src="images/Monroe_thinking.jpg" id="about_Monroe_image" alt ="Picture of Monroe">
+  <img src="images/Monroe.jpg" id="about_Monroe_image" alt ="Picture of Monroe">
 </div>
 
 <!--Team Leads-->
