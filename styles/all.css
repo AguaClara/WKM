@@ -8,22 +8,16 @@ html, body {
   font-family: 'Lato', sans-serif;
   color: #222;
 }
-h3{
-  font-size: 20px;
 
-}
-h2{
-  /* margin-left: 40px; */
-  font-size: 40px;
+h3{
+  font-size: 16px;
 }
 h2, .blue{
   color: #3ebeda;
-  font-size: 40px;
 }
 
 h2, .green{
   color:#6fc460;
-  font-size: 40px;
 }
 
 h1, .white{
@@ -31,35 +25,23 @@ h1, .white{
   font-size: 50px;
 }
 
-greybg {
-  background-color:#FAFAFA;
-}
-
 p{
   font-family: 'Lato', sans-serif;
+<<<<<<< HEAD
   font-size: 20px;
   line-height: 24px;
   font-weight:lighter;
+=======
+  font-size: 16px;
+>>>>>>> fa92002dd82cf5864e913bfc1e09b85afc5870f4
 }
 
 li{
   list-style-type: circle;
-  font-size: 18px;
-  font-weight: lighter;
 }
 
 nav li{
   list-style-type: none;
-}
-
-figcaption{
-  margin-top: 15px;
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-}
-
-figure{
-    text-align: center;
 }
 
 .navbar {
@@ -86,8 +68,12 @@ figure{
   color: white;
 }
 
+.greybg {
+  background-color: #FAFAFA;
+}
+
 .footer-col {
-  padding: 3rem 0 0 3rem;
+  padding: 2rem 0;
 }
 
 /* -global variables end- */
@@ -126,7 +112,7 @@ figure{
   line-height: 3rem;
 }
 
-.jumbotron {
+.message {
   padding: 5rem 5rem;
 }
 
@@ -136,7 +122,7 @@ figure{
 
 #info{
   padding: 1rem 2rem 1rem 4rem;
-  line-height: 26px;
+  line-height:30px;
 }
 
 .mission img{
@@ -147,7 +133,6 @@ figure{
 }
 
 .video {
-  background-color: #FAFAFA;
   padding-top: 60px;
   padding-bottom: 80px;
 }
@@ -162,6 +147,30 @@ figure{
 
 .footer {
   background-color: #1a4f5a;
+  padding-left: 3rem;
+}
+
+.footer-text {
+  color: #FFF;
+}
+
+.footer-link a:hover {
+  text-decoration: none;
+  color: #A9A9A9;
+}
+
+.social a {
+  padding: 0.5rem 0.5rem;
+}
+
+.fa-facebook:hover, .fa-twitter:hover,
+.fa-linkedin:hover, .fa-instagram:hover {
+  color: #A9A9A9;
+}
+
+.copyright {
+  margin: 0;
+  padding-bottom: 1em;
 }
 
 [class*="col-"] {
@@ -175,11 +184,21 @@ figure{
     font-size: 35px;
   }
 
-  .footer-text {
-    text-align: center;
-  }
 }
 
+@media (max-width: 832px) {
+  .footer {
+    padding-left: 2rem;
+  }
+
+}
+
+@media (max-width: 813px) {
+  .social a {
+    font-size: 1.2em !important;
+  }
+
+}
 
 @media (max-width: 768px){
   h1, .white{
@@ -214,6 +233,7 @@ figure{
     padding: 1rem 2rem;
     text-align: center;
   }
+
 }
 
 
@@ -704,4 +724,26 @@ padding-left:20px;
 }
 .joinus_container_testimonial{
 padding:20px;
+}
+#joinus_info_header{
+text-align: center;
+margin-left: 25%;
+margin-right: 25%;
+}
+.joinus_recruitment{
+text-align: center;
+}
+.class1{
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  background: #13b4ff;
+}
+.class2{
+  float: right;
+  width: 300px;
+  height: 300px;
+margin-left: 25%;
+  background: #13b4ff;
 }

@@ -104,24 +104,39 @@
     <h2 class="joinus_courses"> Courses </h2>
   <div>
     <p>Joining Aguaclara as an undergraduate project
-      team member requires you to take <span class= "joinus_bold">CEE 2550 </span>  to
+      team member requires you to take <span class= "joinus_bold">CEE 2550 </span> to
       gain credit for the research conducted.
     </p>
 <nav class = "joinus_course_list">
+
     <ul>
+<div class = "class1">
       <li>CEE 2550: AguaClara: Sustainable Water Supply Project</li>
+</div>
+<div class = "class2">
       <li>CEE 4540: Sustainable Municipal Drinking Water Treatment</li>
+</div>
+  <div class = "class3">
+
       <li>CEE 4550: AguaClara: Sustainable Water Supply Project [GRADUATE: CEE 5051-5052]</li>
-      <li>CEE 3090: Special Topics in Civil and Environmental
+</div>
+<div class = "class4">
+
+<li>CEE 3090: Special Topics in Civil and Environmental
         Engineering</li>
+</div>
+<div class = "class5">
+
         <li>International Student Research Internships</li>
-      </ul>
+</div>
+</ul>
 </nav>
     </div>
 
     <div>
-      <h2> Recruitment </h2>
-      <p> Information Sessions </p>
+      <h2 class="joinus_courses"> Recruitment </h2>
+      <p id="joinus_info_header"> Information Sessions </p>
+<div class = "joinus_recruitment">
       <p> We hold information sessions for new members in the beginning
         of the every semester. </p>
         <p> 1/24 Wednesday 2:55-4:10 Hollister 366 </p>
