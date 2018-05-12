@@ -78,11 +78,12 @@
 
 
     <h2 class="joinus_courses"> Courses </h2>
-
+<div class = "joinus_description">
     <p>Joining Aguaclara as an undergraduate project
       team member requires you to take CEE 2550 to
       gain credit for the research conducted.
     </p>
+</div>
 <nav class = "joinus_course_list">
   <ul>
 
