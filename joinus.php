@@ -74,69 +74,52 @@
     </div>
 
 </div>
-    <!-- <div>
-      <div class = "joinus_testimonial1">
 
-        <div class="joinus_testimonial_paragraph">
-
-        <p> “Being surrounded by so many people who are equally committed to using
-          engineering to benefit communities is incredible. It has been so special to
-          do research, watch the implementation of the team’s hard work, and have the
-          opportunity to visit plants in Honduras. AguaClara has inspired a change in
-          my career path to focus more on safe water."
-        </p>
-</div>
-      </div> -->
-
-      <!-- <div class = "joinus_testimonial_image">
-      <div>
-        <img class="testimonial_image" alt="clare" src="images/clare1.png"/>
-      </div>
-      <p> - Clare O'Connor, Environmental Engineering '18 </p>
-</div>
-
-
-    </div>
-  </div>
- -->
 
 
     <h2 class="joinus_courses"> Courses </h2>
-  <div>
+
     <p>Joining Aguaclara as an undergraduate project
-      team member requires you to take <span class= "joinus_bold">CEE 2550 </span> to
+      team member requires you to take CEE 2550 to
       gain credit for the research conducted.
     </p>
 <nav class = "joinus_course_list">
+  <ul>
 
-    <ul>
+      <div class = "joinus_coursesflex">
 <div class = "class1">
-      <li>CEE 2550: AguaClara: Sustainable Water Supply Project</li>
+  <li class = "joinus_flextitle"> Graduate </li>
+<div class = "joinus_graduate">
+<li> <span class ="joinus_bold">CEE 4550:</span> AguaClara: Sustainable Water Supply Project [GRADUATE: CEE 5051-5052]</li>
+</div>
 </div>
 <div class = "class2">
-      <li>CEE 4540: Sustainable Municipal Drinking Water Treatment</li>
+  <li class = "joinus_flextitle"> International </li>
+<div class = "joinus_international">
+<li>International Student Research Internships</li>
+</div>
+
 </div>
   <div class = "class3">
 
-      <li>CEE 4550: AguaClara: Sustainable Water Supply Project [GRADUATE: CEE 5051-5052]</li>
+    <li class = "joinus_flextitle"> Undergraduate </li>
+<div class = "joinus_undergrad">
+          <li><span class ="joinus_bold">CEE 2550:</span> AguaClara: Sustainable Water Supply Project</li>
+    <li><span class ="joinus_bold">CEE 4540:</span> Sustainable Municipal Drinking Water Treatment</li>
+    <li><span class ="joinus_bold">CEE 3090:</span> Special Topics in Civil and Environmental
+            Engineering</li>
 </div>
-<div class = "class4">
+</div>
+</div>
 
-<li>CEE 3090: Special Topics in Civil and Environmental
-        Engineering</li>
-</div>
-<div class = "class5">
-
-        <li>International Student Research Internships</li>
-</div>
 </ul>
 </nav>
     </div>
+</div>
 
-    <div>
       <h2 class="joinus_courses"> Recruitment </h2>
       <p id="joinus_info_header"> Information Sessions </p>
-<div class = "joinus_recruitment">
+<div class="joinus_recruitment">
       <p> We hold information sessions for new members in the beginning
         of the every semester. </p>
         <p> 1/24 Wednesday 2:55-4:10 Hollister 366 </p>

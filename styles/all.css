@@ -627,8 +627,7 @@ margin-left: 20px;
 .joinus_title{
   text-align: center;
   color: white;
-  top: 50%;
-  left: 50%;
+  top: 100%;
   padding-top: 60px;
   text-shadow: 0px 0px 3px black;
 }
@@ -644,8 +643,11 @@ margin-left: 20px;
   color: white;
   text-shadow: 0px 0px 3px black;
 } */
-.joinus_bold{
+.joinus_italic{
 font-style: italic;
+}
+.joinus_bold{
+font-weight: bold;
 }
 .joinus_mission_title{
 align-content: center;
@@ -712,16 +714,61 @@ margin-right: 25%;
 text-align: center;
 }
 .class1{
-  float: left;
-  width: 300px;
-  height: 300px;
-  margin: 5px;
-  background: #13b4ff;
+flex: 1;
+order: 1;
+  /* float: left; */
+  width: 250px;
+  height: 250px;
+  /* margin: 5px; */
+  background: #3ebeda;
+
 }
 .class2{
-  float: right;
-  width: 300px;
-  height: 300px;
-margin-left: 25%;
-  background: #13b4ff;
+flex: 1;
+order: 3;
+  /* float: right; */
+  width: 250px;
+  height: 250px;
+/* margin-left: 25%; */
+  background: #3ebeda
+;
+}
+.class3{
+flex: 1;
+order:2;
+align-content: center;
+width: 250px;
+height: 250px;
+background: #3dd676;
+/* margin-left: 50%; */
+
+
+}
+.joinus_undergrad{
+margin-left: 5%;
+margin-right: 5%;
+padding: 10px;
+}
+.joinus_coursesflex{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+.joinus_flextitle{
+font-weight: bold;
+text-align: center;
+font-size: 25px;
+
+}
+.joinus_international{
+margin-left: 5%;
+margin-right: 5%;
+padding: 10px;
+
+}
+.joinus_graduate{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+
 }
