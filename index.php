@@ -16,13 +16,9 @@
 
 <body>
 
-<<<<<<< HEAD
- <?php include("includes/nav.php");?>
-=======
 <!-- nav bar -->
 
  <?php include("includes/nav_index.php");?>
->>>>>>> fa92002dd82cf5864e913bfc1e09b85afc5870f4
 
  <!-- landing page-->
 
@@ -64,20 +60,7 @@
      <div class="col-lg-7">
        <h2 class="blue text-center" id="info">Our mission</h2>
        <br>
-<<<<<<< HEAD
-       <p id="info">AguaClara Cornell upholds and protects the
-         fundamental human right to access safe drinking water.
-         We are committed to the ongoing development of resilient, gravity-powered
-          drinking water and wastewater treatment technologies.
-           Students lead the innovation process, learn from each
-            other, and foster a collaborative environment where diversity is celebrated,
-            failures are learning opportunities, and success is shared. We research, invent,
-             and design technologies that are implemented by partner organizations and managed by
-             communities to bring <i>safe water on tap!</i></p>
-       <br>
-=======
        <p id="info">AguaClara Cornell upholds and protects the fundamental human right to access safe drinking water. We are committed to the ongoing development of resilient, gravity-powered drinking water and wastewater treatment technologies. Students lead the innovation process, learn from each other, and foster a collaborative environment where diversity is celebrated, failures are learning opportunities, and success is shared. We research, invent, and design technologies that are implemented by partner organizations and managed by communities to bring <i>safe water on tap</i>!</p>
->>>>>>> fa92002dd82cf5864e913bfc1e09b85afc5870f4
      </div>
      <div class="col-lg-5">
        <img src="images/mission_homepage.jpg" class="img-fluid">
