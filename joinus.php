@@ -16,16 +16,20 @@
 </head>
 <body>
   <?php include("includes/nav_joinus.php");?>
-<div class="joinus_banner">
+<!-- <div id="banner_container"> -->
+  <div class="joinus_banner">
   <h1 class= "joinus_title">Join Us </h1>
-
 </div>
-<p class = "joinus_description"> The research, invention, and design project courses specific to AguaClara are
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1Rjl2cfjMn0Pk7E11KVq9A1mlj2Q&hl=en" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1Rjl2cfjMn0Pk7E11KVq9A1mlj2Q&hl=en" width="640" height="480"></iframe><iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/d/u/0/viewer?mid=1Rjl2cfjMn0Pk7E11KVq9A1mlj2Q&hl=en&ll=22.08264745281886%2C83.28836973756552&z=6" allowfullscreen></iframe>
+<!-- </div> -->
+<h3 class = "joinus_description"> The research, invention, and design project courses specific to AguaClara are
   focused on developing technology that can be used to improve the drinking water
   quality of surface water sources in the Global South. The program is structured
   to allow students with different levels of expertise to collaborate, invent, and
   change the world.
-</p>
+</h3>
 <img class="joinus_hammock" alt="clare" src="images/joinus_hammock.jpg"/>
 <div class = "joinus_mission_title">
     <h2 class="joinus_why"> Why should you join our team?</h2>
@@ -146,4 +150,10 @@
 </div>
     </body>
 
-    </html>
+
+      <?php include("includes/footer.php");?>
+
+      <script src="js/navbar_scroll.js"></script>
+</body>
+
+</html>

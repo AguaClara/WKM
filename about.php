@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 
   <title>About</title>
@@ -17,7 +18,7 @@
 </head>
 <body>
 <!--Nav Bar-->
- <?php include("includes/nav.php");?>
+ <?php include("includes/nav_about.php");?>
 
  <div id= "about_banner">
    <h1 id="about_title"> Who We Are </h1>
@@ -46,7 +47,7 @@
   <p> He has guided the AguaClara team to invent a series of technologies that together make
     it possible to produce safe drinking water without using any electricity.</p>
   </div>
-  <img src="images/Monroe_thinking.jpg" id="about_Monroe_image" alt ="Picture of Monroe">
+  <img src="images/Monroe.jpg" id="about_Monroe_image" alt ="Picture of Monroe">
 </div>
 
 <!--Team Leads-->
@@ -67,7 +68,7 @@
 </div>
 
 
-<h2 id= "about_subteams"> AguaClara Cornell Subteams </h2>
+<h2 id= "about_subteams"> <a name="exactline"> AguaClara Cornell Subteams </a> </h2>
 <div id="Subteams_Container">
 
     <div id= "Subteams_SubC1">
@@ -106,10 +107,10 @@
   </div>
 
 
+<!--footer-->
+<?php include("includes/footer.php");?>
 
-  <script src="js/navbar_scroll.js"></script>
-  <script src="js/navbar_active.js"></script>
-
+<script src="js/navbar_scroll.js"></script>
 
 </body>
 </html>

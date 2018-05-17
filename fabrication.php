@@ -10,23 +10,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-  <script>
-  $(document).ready(function(){
-    $("#fabrication_team1").click(function(){
-      $("#fabrication_team_container1").toggle(1000);
-    })
-    $("#fabrication_team2").click(function(){
-      $("#fabrication_team_container2").toggle(1000);
-    })
-    $("#fabrication_team3").click(function(){
-      $("#fabrication_team_container3").toggle(1000);
-    })
-    $("#fabrication_team4").click(function(){
-      $("#fabrication_team_container4").toggle(1000);
-    })
-  });
-  </script>
+  <script src="js/fabrication.js"></script>
 
   <title>Fabrication</title>
 </head>
@@ -129,6 +115,10 @@
   </div>
 </div>
 </div>
+
+<?php include("includes/footer.php");?>
+
+<script src="js/navbar_scroll.js"></script>
 
 </body>
 </html>
