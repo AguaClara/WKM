@@ -7,7 +7,7 @@
     </div>
     <div class="footer-link col-md-1 col-lg-1">
       <a href="about.php"><p>About</p></a>
-      <a href="about.php#exactline"><p> Subteams</p></a>
+      <a href="about.php#exactline"><p>Teams</p></a>
     </div>
     <div class="footer-link col-md-2 col-lg-1">
       <a href="#"><p>Impact</p></a>
