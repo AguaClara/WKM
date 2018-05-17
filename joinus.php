@@ -15,7 +15,7 @@
 
 </head>
 <body>
-  <?php include("includes/nav.php");?>
+  <?php include("includes/nav_joinus.php");?>
 <div class="joinus_banner">
   <h1 class= "joinus_title">Join Us </h1>
 
@@ -65,18 +65,35 @@
     </div>
         <div class = "joinus_testimonial_image_2">
           <div>
-            <img class="joinus_testimonial_image_2" alt="clare" src="images/clare1.png"/>
+            <img class="joinus_testimonial_image" alt="clare" src="images/clare1.png"/>
           </div>
 <div class = "joinus_name">
           <p> - Clare O'Connor, Environmental Engineering '18 </p>
         </div>
       </div>
-    </div>
+      <!-- <div class="joinus_testimonial_paragraph">
+              <p> “Aguaclara has made it clear to me the importance of communication
+                and lifelong friendships; that the key to engineering is a foundation
+                of understanding across ideologies, languages, and cultures. Rather
+                than becoming overwhelmed by the daunting mission that defines Aguaclara,
+                being a part of the team has shown me that there is sophistication in simplicity,
+                innovation in friendship, and beauty in engineering."
+              </p>
+      </div>
+</div>
+              <div class = "joinus_testimonial_image_3">
+                <div>
+                  <img class="joinus_testimonial_image_3" alt="christopher" src="images/chris1.jpg"/>
+                </div>
+      <div class = "joinus_name">
+                <p> - Jillian Whiting, Environmental Engineering '19 </p>
+              </div>
+            </div>
+ -->
+
+
 
 </div>
-
-
-
     <h2 class="joinus_courses"> Courses </h2>
 <div class = "joinus_description">
     <p>Joining Aguaclara as an undergraduate project
@@ -126,6 +143,7 @@
         <p> 1/24 Wednesday 2:55-4:10 Hollister 366 </p>
         <p> 1/25 Thursday: 2:55 - 4:10 Hollister 366 </p>
       </div>
+</div>
     </body>
 
     </html>

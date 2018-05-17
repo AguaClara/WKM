@@ -611,6 +611,17 @@ margin-top: 20px;
 
 /* margin-top: 20px; */
 }
+.joinus_testimonial_image_3{
+justify-content: flex-start;
+flex: 3;
+order: 0;
+height: 80%;
+width: 80%;
+margin-left: 20px;
+margin-top: 20px;
+
+
+}
 .joinus_testimonial_paragraph{
   justify-content: flex-start;
 flex: 1;
@@ -711,7 +722,7 @@ color: #3ebeda;
 
 }
 .joinus_name{
-margin-left: 15%;
+margin-left: 10%;
 margin-right: 10%;
 font-style: italic;
 padding-right: 20px;
@@ -768,6 +779,8 @@ padding: 10px;
 display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
+margin-right: 5%;
+
 }
 .joinus_flextitle{
 font-weight: bold;
