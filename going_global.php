@@ -29,7 +29,16 @@
 <h2 class="blue" id="GG_team1"> Public Relations </h2>
 <div class="GG_team_container" id="GG_team_container1">
   <div class="GG_txt">
-    <p>Public relations... </p>
+    <p>Public Relations of AguaClara Cornell focuses on increasing overall exposure
+      of the project team within Cornell and the global community. </p>
+
+    <p>Public Relations creates and manages a consistent brand image that communicate
+      AguaClara Cornell’s innovative, minimalistic, and sustainable ideals.
+       Internal team pride and campus exposure is increased by designing team merchandise,
+       maintaining regular social media presence, and overseeing recruitment materials.
+       Press kits, brand books, and templates for promotional materials ensure a uniform
+      message of AguaClara Cornell’s mission is promoted to external sources and
+      maintained within the team. </p>
 
 
     <h3> Members: </h3>
