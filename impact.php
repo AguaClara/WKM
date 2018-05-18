@@ -20,7 +20,7 @@ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6J
   <?php include("includes/nav_about.php");?>
 <!-- <div class ="impact_maps"> -->
 
-<div class = "impact_maps_cont">
+<div class ="impact_maps_cont">
 <div class ="impact_map1">
   <iframe class ="impact_map1" src="https://www.google.com/maps/d/u/0/embed?mid=1zWavmjlmfSWzPgmhym4oBz37VeT2J_iy" width="640" height="480"></iframe>
   <!-- <h2> India </h2> -->
