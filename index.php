@@ -36,8 +36,8 @@
        <img src="images/facts_homepage.jpeg" class="img-fluid mx-auto d-block">
      </div>
      <div class="col-lg-6 text-center">
-        <div class="home_highlight_fact">Nearly 3 billion people</div> <p>in the world do not have access to clean and safe drinking water.</p>
-        <div class="home_highlight_fact">1,000 children</div> <p>die everyday due to water related diarrheal diseases.</p>
+        <div class="home_highlight_fact">2 Billion people</div> <p>in the world do not have access to clean and safe drinking water.</p>
+        <div class="home_highlight_fact">Nearly 1,000 children</div> <p>die everyday due to water related diarrheal diseases.</p>
         <div class="home_highlight_fact">More than 80%</div><p> of our wastewater is discharged back to the environment without proper treatment.</p>
      </div>
    </div>
@@ -86,7 +86,7 @@
 <!-- footer -->
 
  <?php include("includes/footer.php");?>
- 
+
  <!--javascript-->
 
 <script src="js/navbar_scroll.js"></script>

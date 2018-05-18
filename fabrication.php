@@ -18,7 +18,7 @@
 </head>
 <body>
   <!--Nav Bar-->
-   <?php include("includes/nav.php");?>
+   <?php include("includes/nav_subteam.php");?>
 
 <div id= "fabrication_banner">
   <h1 id="fabrication_title"> Fabrication Subteams </h1>
