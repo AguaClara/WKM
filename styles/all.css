@@ -244,20 +244,25 @@ nav li{
   flex-direction: row;
   margin:40px;
 }
+
+
 #about_Monroe_text{
   flex:1.5;
   order:1;
-  margin-right: 40px;
-  padding-top:40px;
+
+  margin-right: 80px;
+   padding-top:40px;
   padding-left: 20px;
+
 }
 #about_Monroe_image{
-  width:400px;
+  width:300px;
   height:400px;
   flex:1;
   order:2;
-  margin-left: 40px;
+  margin-right: 60px;
   margin-bottom: 25px;
+
 }
 
 #about_Team_Lead1{
@@ -556,7 +561,7 @@ a:link, a:visited{
 /*Going Global Page Start */
 
 #GG_banner {
-  background-image: url("../images/fabrication_banner2.jpg");
+  background-image: url("../images/gg_banner.jpg");
   background-repeat: no-repeat;
   /* background-attachment: center; */
   background-position: center;
@@ -581,6 +586,7 @@ a:link, a:visited{
 .GG_team_name{
   text-align: center;
   margin-top:20px;
+  
 }
 .GG_color1{
   padding-top:15px;

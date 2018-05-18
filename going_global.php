@@ -18,7 +18,7 @@
 </head>
 <body>
   <!--Nav Bar-->
-   <?php include("includes/nav.php");?>
+   <?php include("includes/nav_subteam.php");?>
 
 <div id= "GG_banner">
   <h1 id="GG_title"> Going Global Subteams </h1>

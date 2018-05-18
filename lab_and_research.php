@@ -18,7 +18,7 @@
 </head>
 <body>
   <!--Nav Bar-->
-   <?php include("includes/nav.php");?>
+   <?php include("includes/nav_subteam.php");?>
 
 <div id= "LR_banner">
   <h1 id="LR_title"> Lab and Research Subteams </h1>
