@@ -249,16 +249,16 @@ nav li{
 #about_Monroe_text{
   flex:1.5;
   order:1;
-
-  margin-right: 80px;
-   padding-top:40px;
+  margin-right: 90px;
   padding-left: 20px;
+  padding-top:30px;
+  line-height: 35px;
 
 }
 #about_Monroe_image{
   width:300px;
   height:400px;
-  flex:1;
+  flex:.5;
   order:2;
   margin-right: 60px;
   margin-bottom: 25px;
@@ -457,15 +457,13 @@ a:link, a:visited{
   text-shadow: 0px 0px 4px black;
 }
 
-.fabrication_team_name{
-  text-align: center;
-  margin-top:20px;
-}
 .fabrication_color1{
-  padding-top:15px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 .fabrication_color2{
-  padding-top:15px;
+  padding-top:20px;
+  padding-bottom:20px;
   background-color: #FAFAFA;
 }
 .fabrication_team_container{
@@ -523,15 +521,13 @@ a:link, a:visited{
   text-shadow: 0px 0px 4px black;
 }
 
-.LR_team_name{
-  text-align: center;
-  margin-top:20px;
-}
 .LR_color1{
-  padding-top:15px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 .LR_color2{
-  padding-top:15px;
+  padding-top:20px;
+  padding-bottom:20px;
   background-color: #FAFAFA;
 }
 .LR_team_container{
@@ -547,17 +543,24 @@ a:link, a:visited{
   padding-right:20%;
   padding-bottom:30px;
   color:white;
-  background-color:#1A4F5A;
+  background-color:#1B4C71;
   opacity: .75;
 }
 .LR_team_members li{
   padding:20px;
 }
 
-#LR_team1, #LR_team2, #LR_team3, #LR_team4{
+.LR_subname{
+  margin:40px;
+  border-bottom: 3px solid lightgray;
+}
+
+#LR_team1, #LR_team2, #LR_team3, #LR_team4, #LR_team5, #LR_team6,
+#LR_team7, #LR_team8, #LR_team9, #LR_team10, #LR_team11{
   cursor:pointer;
   text-align: center;
 }
+
 /*Going Global Page Start */
 
 #GG_banner {
@@ -583,16 +586,13 @@ a:link, a:visited{
   text-shadow: 0px 0px 4px black;
 }
 
-.GG_team_name{
-  text-align: center;
-  margin-top:20px;
-  
-}
 .GG_color1{
-  padding-top:15px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 .GG_color2{
-  padding-top:15px;
+  padding-top:20px;
+  padding-bottom:20px;
   background-color: #FAFAFA;
 }
 .GG_team_container{
@@ -621,7 +621,64 @@ a:link, a:visited{
 }
 /* Going Global Page End*/
 
+/*Apps and Algorithms Page Start*/
 
+#AA_banner {
+  background-image: url("../images/apps&algorithms.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: center; */
+  background-position: center;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+#AA_title{
+  color:white;
+  font-size: 65px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position:absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 0px 0px 4px black;
+}
+
+.AA_color1{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.AA_color2{
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: #FAFAFA;
+}
+.AA_team_container{
+  padding-left:40px;
+  padding-right:40px;
+  display:none;
+}
+
+.AA_txt{
+  line-height: 30px;
+  padding-top:30px;
+  padding-left:20%;
+  padding-right:20%;
+  padding-bottom:30px;
+  color:white;
+  background-color:#1A4F5A;
+  opacity: .75;
+}
+.AA_team_members li{
+  padding:20px;
+}
+
+#AA_team1, #AA_team2, #AA_team3{
+  cursor:pointer;
+  text-align: center;
+}
 
 
 
