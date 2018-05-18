@@ -22,13 +22,13 @@ h2, .green{
 
 h1, .white{
   color:#FFF;
-  font-size: 50px;
+  font-size: 55px;
 }
 
 p{
   font-family: 'Lato', sans-serif;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 30px;
   font-weight:lighter;
 }
 
@@ -177,7 +177,7 @@ nav li{
 /* media queries */
 @media (max-width: 992px){
   h1, .white{
-    font-size: 35px;
+    font-size: 55px;
   }
 
 }
@@ -668,7 +668,7 @@ a:link, a:visited{
   padding-right:20%;
   padding-bottom:30px;
   color:white;
-  background-color:#1A4F5A;
+  background-color: #1B7169;
   opacity: .75;
 }
 .AA_team_members li{
@@ -680,10 +680,97 @@ a:link, a:visited{
   text-align: center;
 }
 
+/*Apps and Algorithms Page End*/
 
 
+/* Impact Page Start */
+#impact_banner {
+  background-image: url("../images/impact_banner.jpg");
+  height:60%;
+  top:50px;
+  margin-top: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
 
+#impact_title{
+  color:white;
+  font-size: 55px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position:absolute;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 0px 4px black;
 
+}
+#impact_banner2 {
+  background-image: url("../images/impact_banner2.jpg");
+  height:50%;
+  top:50px;
+  margin-top: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#impact_title2{
+  color:white;
+  font-size: 55px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position:absolute;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 0px 4px black;
+
+}
+#impact_map1{
+float: left;
+margin-left:10%;
+margin-top:100px;
+margin-bottom: 100px;
+position:relative;
+
+}
+#impact_map2{
+float: right;
+margin-right:10%;
+margin-top:100px;
+margin-bottom: 100px;
+position:relative;
+}
+
+#pp_table{
+  width:100%;
+  margin-top:150px;
+  padding-right:5%;
+  padding-left:5%;
+  margin-bottom:100px;
+}
+
+tr{
+  width:100%;
+}
+td{
+  padding-bottom: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight:lighter;
+  text-align: left;
+}
+.material-icons{
+  font-size: 48px !important;
+  color:#0073cf;
+}
+#break{
+  clear:both;
+}
+/* Impact Page End */
 
 
 
@@ -768,59 +855,42 @@ flex: 1;
 order: 0;
 height: 80%;
 width: 80%;
-margin-left: 20px;
+margin-right: 20px;
+margin-left: 30px;
 margin-top: 20px;
-
 
 }
 .joinus_testimonial_image_2{
 justify-content: flex-start;
-flex: 2;
+flex: 1;
 order: 0;
-/* padding: 20px; */
 height: 90%;
 width: 90%;
-margin-left: 20px;
+margin-left: 5%;
 margin-top: 20px;
-
-/* margin-top: 20px; */
 }
-.joinus_testimonial_image_3{
-justify-content: flex-start;
-flex: 3;
-order: 0;
-height: 80%;
-width: 80%;
-margin-left: 20px;
-margin-top: 20px;
 
-
-}
 .joinus_testimonial_paragraph{
   justify-content: flex-start;
 flex: 1;
 order: 0;
-padding-top:7%;
-margin-left: 20px;
+margin-top:150px;
+margin-left: 5%;
 padding-left: 20px;
 padding-right: 20px;
-
-/* padding: 20px; */
 }
 .joinus_testimonial_paragraph_2{
-flex: 2;
+flex: 1;
 order: 1;
-/* margin-top: 90px; */
+margin-top:150px;
 margin-left: 20px;
-padding-top:10%;
+margin-right:5%;
 }
 
 .joinus_italic{
 font-style: italic;
 }
-.joinus_bold{
-font-weight: bold;
-}
+
 .joinus_mission_title{
 align-content: center;
 align-items: center;
@@ -852,9 +922,10 @@ padding-bottom: 20px;
   /* align-items: center; */
   /* margin-right: 25%; */
   margin-left: 25%;
-margin-right: 25%;
-padding: 30px;
-text-align: center;
+  margin-right: 25%;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  text-align: center;
 }
 .joinus_courses{
   margin-left: 25%;
@@ -946,40 +1017,4 @@ padding: 10px;
   margin-right: 5%;
   padding: 10px;
 
-}
-.impact_map1{
-/* margin-left: 20%;
-margin-right: 10%; */
-/* align-content: center; */
-/* margin: 20px auto; */
-float: left;
-width: 500px;
-height: 400px;
-/* margin-left: 10px; */
-margin-left:10%;
-padding-right: 20px;
-/* margin-right: 25%; */
-
-}
-.impact_map2{
-float: right;
-width: 500px;
-height: 400px;
-margin-right:10%;
-padding-left: 5px;
-
-/* margin-right: 25%; */
-
-/* padding: 10px; */
-}
-.impact_maps_cont{
-/* margin-left: 5%;
-margin-right: 5%; */
-/* align-items: center; */
-align-items: center;
-
-}
-iframe{
-/* width: 400px;
-height: 400px; */
 }

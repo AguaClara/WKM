@@ -18,7 +18,7 @@
   <?php include("includes/nav_joinus.php");?>
 <!-- <div id="banner_container"> -->
   <div class="joinus_banner">
-  <h1 class= "joinus_title">Join Us </h1>
+  <h1 class= "joinus_title">Join Us</h1>
 </div>
 <h3 class = "joinus_description"> The research, invention, and design project courses specific to AguaClara are
   focused on developing technology that can be used to improve the drinking water
@@ -57,7 +57,7 @@
     <div class="joinus_container_testimonial">
       <div class = "joinus_testimonial1">
     <div class="joinus_testimonial_paragraph_2">
-        <p class = "joinus_tesimonial_paragraph_2"> “Being surrounded by so many people who are equally committed to using
+        <p > “Being surrounded by so many people who are equally committed to using
           engineering to benefit communities is incredible. It has been so special to
           do research, watch the implementation of the team’s hard work, and have the
           opportunity to visit plants in Honduras. AguaClara has inspired a change in
@@ -88,7 +88,8 @@
 <div class = "class1">
   <li class = "joinus_flextitle"> Graduate </li>
 <div class = "joinus_graduate">
-<li> <span class ="joinus_bold">CEE 4550:</span> AguaClara: Sustainable Water Supply Project [GRADUATE: CEE 5051-5052]</li>
+<li> <span class ="joinus_bold">CEE 4550:</span> AguaClara: Sustainable Water Supply Project
+  [GRADUATE: CEE 5051-5052]</li>
 </div>
 </div>
 <div class = "class2">
@@ -102,9 +103,9 @@
 
     <li class = "joinus_flextitle"> Undergraduate </li>
 <div class = "joinus_undergrad">
-          <li><span class ="joinus_bold">CEE 2550:</span> AguaClara: Sustainable Water Supply Project</li>
-    <li><span class ="joinus_bold">CEE 4540:</span> Sustainable Municipal Drinking Water Treatment</li>
-    <li><span class ="joinus_bold">CEE 3090:</span> Special Topics in Civil and Environmental
+          <li><b>CEE 2550:</b> AguaClara: Sustainable Water Supply Project</li>
+    <li><b>CEE 4540:</b> Sustainable Municipal Drinking Water Treatment</li>
+    <li><b>CEE 3090:</b> Special Topics in Civil and Environmental
             Engineering</li>
 </div>
 </div>
@@ -127,9 +128,9 @@
     </body>
 
 
-      <?php include("includes/footer.php");?>
+    <?php include("includes/footer.php");?>
 
-      <script src="js/navbar_scroll.js"></script>
+    <script src="js/navbar_scroll.js"></script>
 </body>
 
 </html>

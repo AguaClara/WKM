@@ -63,7 +63,13 @@
 <h2 class="blue" id="AA_team3" >Floc App (Floc size and count app)  </h2>
 <div class="AA_team_container" id="AA_team_container3">
   <div class="AA_txt">
-    <!-- INSERT FLOC BIO -->
+    <p> The Floc App team aims to integrate techniques in computer vision to:
+      identify, count, and size flocs. We use a powerful camera to capture the photos
+      in real time and aim to use software to analyze these images.
+      The ultimate goal is to provide meaningful data to improve plant operations.
+      The goals for this semester were to assemble our new team and begin testing
+      the parameters to optimize our ability to identify flocs.</p>
+
 
    <h3> Members: </h3>
    <ul>
