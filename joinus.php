@@ -20,8 +20,7 @@
   <div class="joinus_banner">
   <h1 class= "joinus_title">Join Us </h1>
 </div>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zWavmjlmfSWzPgmhym4oBz37VeT2J_iy" width="640" height="480"></iframe>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gRyvo-NY27UMsry9hOpPxkw0x0sA-d1T" width="640" height="480"></iframe>
+
 <h3 class = "joinus_description"> The research, invention, and design project courses specific to AguaClara are
   focused on developing technology that can be used to improve the drinking water
   quality of surface water sources in the Global South. The program is structured
@@ -37,7 +36,7 @@
     <div class="joinus_container_testimonial">
       <div class = "joinus_testimonial1">
 <div class="joinus_testimonial_paragraph">
-        <p> “Aguaclara has made it clear to me the importance of communication
+        <p class = "joinus_testimonial_paragraph"> “Aguaclara has made it clear to me the importance of communication
           and lifelong friendships; that the key to engineering is a foundation
           of understanding across ideologies, languages, and cultures. Rather
           than becoming overwhelmed by the daunting mission that defines Aguaclara,
