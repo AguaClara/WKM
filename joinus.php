@@ -20,10 +20,8 @@
   <div class="joinus_banner">
   <h1 class= "joinus_title">Join Us </h1>
 </div>
-
-<iframe src="https://www.google.com/maps/d/embed?mid=1Rjl2cfjMn0Pk7E11KVq9A1mlj2Q&hl=en" width="640" height="480"></iframe>
-<iframe src="https://www.google.com/maps/d/embed?mid=1Rjl2cfjMn0Pk7E11KVq9A1mlj2Q&hl=en" width="640" height="480"></iframe><iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/d/u/0/viewer?mid=1Rjl2cfjMn0Pk7E11KVq9A1mlj2Q&hl=en&ll=22.08264745281886%2C83.28836973756552&z=6" allowfullscreen></iframe>
-<!-- </div> -->
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zWavmjlmfSWzPgmhym4oBz37VeT2J_iy" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gRyvo-NY27UMsry9hOpPxkw0x0sA-d1T" width="640" height="480"></iframe>
 <h3 class = "joinus_description"> The research, invention, and design project courses specific to AguaClara are
   focused on developing technology that can be used to improve the drinking water
   quality of surface water sources in the Global South. The program is structured
@@ -47,13 +45,14 @@
           innovation in friendship, and beauty in engineering."
         </p>
 </div>
-        <div class = "joinus_testimonial_image">
+        <div class ="joinus_testimonial_image">
           <div>
-            <img class="joinus_testimonial_image" alt="christopher" src="images/chris1.jpg"/>
+            <img class ="joinus_testimonial_image" alt="christopher" src="images/chris1.jpg"/>
+            <div class = "joinus_name">
+                      <p> - Christopher Galantino, Environmental Engineering '19 </p>
+                    </div>
           </div>
-<div class = "joinus_name">
-          <p> - Christopher Galantino, Environmental Engineering '19 </p>
-        </div>
+
       </div>
     </div>
 
@@ -99,7 +98,7 @@
 
 </div>
     <h2 class="joinus_courses"> Courses </h2>
-<div class = "joinus_description">
+<div class = "joinus_recruitment">
     <p>Joining Aguaclara as an undergraduate project
       team member requires you to take CEE 2550 to
       gain credit for the research conducted.
@@ -140,7 +139,7 @@
 </div>
 
       <h2 class="joinus_courses"> Recruitment </h2>
-      <p id="joinus_info_header"> Information Sessions </p>
+      <!-- <p id="joinus_info_header"> Information Sessions </p> -->
 <div class="joinus_recruitment">
       <p> We hold information sessions for new members in the beginning
         of the every semester. </p>

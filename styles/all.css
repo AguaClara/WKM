@@ -615,7 +615,6 @@ a:link, a:visited{
 .joinus_banner{
   background-image: url("../images/Join_Us_banner.jpg");
   margin-top: 10px;
-  margin-bottom: 30px;
   height:60%;
   top:50px;
   overflow:hidden;
@@ -623,6 +622,7 @@ a:link, a:visited{
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+
 }
 .joinus_title{
   color:white;
@@ -742,11 +742,13 @@ color: #3ebeda;
 
 }
 .joinus_name{
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 15%;
+margin-right: 25%;
 font-style: italic;
-padding-right: 20px;
-padding-left:20px;
+line-height: 25px;
+/* padding-right: 20px;
+padding-left:20px; */
+/* max-width: 300px; */
 }
 .joinus_container_testimonial{
 padding:20px;
@@ -758,6 +760,7 @@ margin-right: 25%;
 }
 .joinus_recruitment{
 text-align: center;
+padding-bottom: 30px;
 }
 .class1{
 flex: 1;
@@ -818,5 +821,18 @@ padding: 10px;
   margin-left: 5%;
   margin-right: 5%;
   padding: 10px;
+
+}
+.impact_maps{
+/* margin-left: 20%;
+margin-right: 10%; */
+/* align-content: center; */
+margin: 20px auto;
+
+}
+.impact_maps_cont{
+margin-left: 5%;
+margin-right: 5%;
+align-items: center;
 
 }
