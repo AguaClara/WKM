@@ -675,7 +675,6 @@ a:link, a:visited{
 .joinus_banner{
   background-image: url("../images/Join_Us_banner.jpg");
   margin-top: 10px;
-  margin-bottom: 30px;
   height:60%;
   top:50px;
   overflow:hidden;
@@ -683,6 +682,7 @@ a:link, a:visited{
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+
 }
 .joinus_title{
   color:white;
@@ -722,22 +722,34 @@ margin-top: 20px;
 
 /* margin-top: 20px; */
 }
+.joinus_testimonial_image_3{
+justify-content: flex-start;
+flex: 3;
+order: 0;
+height: 80%;
+width: 80%;
+margin-left: 20px;
+margin-top: 20px;
+
+
+}
 .joinus_testimonial_paragraph{
   justify-content: flex-start;
 flex: 1;
 order: 0;
-margin-top: 90px;
+padding-top:7%;
 margin-left: 20px;
 padding-left: 20px;
 padding-right: 20px;
+
 /* padding: 20px; */
 }
 .joinus_testimonial_paragraph_2{
 flex: 2;
 order: 1;
-margin-top: 90px;
+/* margin-top: 90px; */
 margin-left: 20px;
-
+padding-top:10%;
 }
 
 .joinus_italic{
@@ -792,10 +804,12 @@ color: #3ebeda;
 }
 .joinus_name{
 margin-left: 15%;
-margin-right: 10%;
+margin-right: 25%;
 font-style: italic;
-padding-right: 20px;
-padding-left:20px;
+line-height: 25px;
+/* padding-right: 20px;
+padding-left:20px; */
+/* max-width: 300px; */
 }
 .joinus_container_testimonial{
 padding:20px;
@@ -807,6 +821,7 @@ margin-right: 25%;
 }
 .joinus_recruitment{
 text-align: center;
+padding-bottom: 30px;
 }
 .class1{
 flex: 1;
@@ -848,6 +863,8 @@ padding: 10px;
 display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
+margin-right: 5%;
+
 }
 .joinus_flextitle{
 font-weight: bold;
@@ -866,4 +883,40 @@ padding: 10px;
   margin-right: 5%;
   padding: 10px;
 
+}
+.impact_map1{
+/* margin-left: 20%;
+margin-right: 10%; */
+/* align-content: center; */
+/* margin: 20px auto; */
+float: left;
+width: 500px;
+height: 400px;
+/* margin-left: 10px; */
+margin-left:10%;
+padding-right: 20px;
+/* margin-right: 25%; */
+
+}
+.impact_map2{
+float: right;
+width: 500px;
+height: 400px;
+margin-right:10%;
+padding-left: 5px;
+
+/* margin-right: 25%; */
+
+/* padding: 10px; */
+}
+.impact_maps_cont{
+/* margin-left: 5%;
+margin-right: 5%; */
+/* align-items: center; */
+align-items: center;
+
+}
+iframe{
+/* width: 400px;
+height: 400px; */
 }

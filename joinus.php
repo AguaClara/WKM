@@ -15,13 +15,11 @@
 
 </head>
 <body>
-  <?php include("includes/nav.php");?>
-
+  <?php include("includes/nav_joinus.php");?>
 <!-- <div id="banner_container"> -->
   <div class="joinus_banner">
   <h1 class= "joinus_title">Join Us </h1>
 </div>
-<!-- </div> -->
 <h3 class = "joinus_description"> The research, invention, and design project courses specific to AguaClara are
   focused on developing technology that can be used to improve the drinking water
   quality of surface water sources in the Global South. The program is structured
@@ -45,13 +43,14 @@
           innovation in friendship, and beauty in engineering."
         </p>
 </div>
-        <div class = "joinus_testimonial_image">
+        <div class ="joinus_testimonial_image">
           <div>
-            <img class="joinus_testimonial_image" alt="christopher" src="images/chris1.jpg"/>
+            <img class ="joinus_testimonial_image" alt="christopher" src="images/chris1.jpg"/>
+            <div class = "joinus_name">
+                      <p> - Christopher Galantino, Environmental Engineering '19 </p>
+                    </div>
           </div>
-<div class = "joinus_name">
-          <p> - Christopher Galantino, Environmental Engineering '19 </p>
-        </div>
+
       </div>
     </div>
 
@@ -67,20 +66,16 @@
     </div>
         <div class = "joinus_testimonial_image_2">
           <div>
-            <img class="joinus_testimonial_image_2" alt="clare" src="images/clare1.png"/>
+            <img class="joinus_testimonial_image" alt="clare" src="images/clare1.png"/>
           </div>
 <div class = "joinus_name">
           <p> - Clare O'Connor, Environmental Engineering '18 </p>
         </div>
       </div>
-    </div>
 
 </div>
-
-
-
     <h2 class="joinus_courses"> Courses </h2>
-<div class = "joinus_description">
+<div class = "joinus_recruitment">
     <p>Joining Aguaclara as an undergraduate project
       team member requires you to take CEE 2550 to
       gain credit for the research conducted.
@@ -121,13 +116,15 @@
 </div>
 
       <h2 class="joinus_courses"> Recruitment </h2>
-      <p id="joinus_info_header"> Information Sessions </p>
+      <!-- <p id="joinus_info_header"> Information Sessions </p> -->
 <div class="joinus_recruitment">
       <p> We hold information sessions for new members in the beginning
         of the every semester. </p>
         <p> 1/24 Wednesday 2:55-4:10 Hollister 366 </p>
         <p> 1/25 Thursday: 2:55 - 4:10 Hollister 366 </p>
       </div>
+</div>
+    </body>
 
 
       <?php include("includes/footer.php");?>
