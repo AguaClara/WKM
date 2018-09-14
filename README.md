@@ -1,5 +1,5 @@
 # Webmasters and Knowledge Management
-
+Please refer to the Fall-2018 branch for most recently updated code.
 ## Members:
 * Ashley He (ach238)
 * Emma Sung (hs699)
