@@ -40,6 +40,14 @@ nav li{
   list-style-type: none;
 }
 
+#freshmen_front {
+  font-size:35px;
+}
+
+#freshmen_link {
+  font-size:35px;
+}
+
 .navbar {
   padding: 0.8rem;
   background-color: #FFF;
