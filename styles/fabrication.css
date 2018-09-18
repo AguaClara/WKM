@@ -1,0 +1,60 @@
+/*Fabricaiton Page Start*/
+
+#fabrication_banner {
+    background-image: url("../images/fabrication_banner2.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: center; */
+    background-position: center;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+  #fabrication_title{
+    color:white;
+    font-size: 65px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 4px black;
+  }
+  
+  .fabrication_color1{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .fabrication_color2{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #FAFAFA;
+  }
+  .fabrication_team_container{
+    padding-left:40px;
+    padding-right:40px;
+    display:none;
+  }
+  
+  .fabrication_txt{
+    line-height: 30px;
+    padding-top:30px;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom:30px;
+    color:white;
+    background-color:#196749;
+    opacity: .75;
+  }
+  .fabrication_team_members li{
+    padding:20px;
+  }
+  
+  #fabrication_team1, #fabrication_team2, #fabrication_team3, #fabrication_team4{
+    cursor:pointer;
+    text-align: center;
+  }
+  
+  /* Fabrication Page End */

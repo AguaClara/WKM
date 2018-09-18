@@ -1,0 +1,59 @@
+/*Going Global Page Start */
+
+#GG_banner {
+    background-image: url("../images/gg_banner.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: center; */
+    background-position: center;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+  #GG_title{
+    color:white;
+    font-size: 65px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 4px black;
+  }
+  
+  .GG_color1{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .GG_color2{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #FAFAFA;
+  }
+  .GG_team_container{
+    padding-left:40px;
+    padding-right:40px;
+    display:none;
+  }
+  
+  .GG_txt{
+    line-height: 30px;
+    padding-top:30px;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom:30px;
+    color:white;
+    background-color:#1A4F5A;
+    opacity: .75;
+  }
+  .GG_team_members li{
+    padding:20px;
+  }
+  
+  #GG_team1, #GG_team2, #GG_team3, #GG_team4{
+    cursor:pointer;
+    text-align: center;
+  }
+  /* Going Global Page End*/

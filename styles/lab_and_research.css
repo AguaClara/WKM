@@ -1,0 +1,67 @@
+/*Lab & Research Page Start */
+
+
+/*Lab& Research Page End */
+
+#LR_banner {
+    background-image: url("../images/L&R_banner.png");
+    background-repeat: no-repeat;
+    /* background-attachment: center; */
+    background-position: center;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+  #LR_title{
+    color:white;
+    font-size: 65px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 4px black;
+  }
+  
+  .LR_color1{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .LR_color2{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #FAFAFA;
+  }
+  .LR_team_container{
+    padding-left:40px;
+    padding-right:40px;
+    display:none;
+  }
+  
+  .LR_txt{
+    line-height: 30px;
+    padding-top:30px;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom:30px;
+    color:white;
+    background-color:#1B4C71;
+    opacity: .75;
+  }
+  .LR_team_members li{
+    padding:20px;
+  }
+  
+  .LR_subname{
+    margin:40px;
+    border-bottom: 3px solid lightgray;
+  }
+  
+  #LR_team1, #LR_team2, #LR_team3, #LR_team4, #LR_team5, #LR_team6,
+  #LR_team7, #LR_team8, #LR_team9, #LR_team10, #LR_team11{
+    cursor:pointer;
+    text-align: center;
+  }

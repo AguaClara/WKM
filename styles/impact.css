@@ -1,0 +1,88 @@
+/* Impact Page Start */
+#impact_banner {
+    background-image: url("../images/impact_banner.jpg");
+    height:60%;
+    top:50px;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  #impact_title{
+    color:white;
+    font-size: 55px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 4px black;
+  
+  }
+  #impact_banner2 {
+    background-image: url("../images/impact_banner2.jpg");
+    height:50%;
+    top:50px;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  #impact_title2{
+    color:white;
+    font-size: 55px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 4px black;
+  
+  }
+  #impact_map1{
+  float: left;
+  margin-left:10%;
+  margin-top:100px;
+  margin-bottom: 100px;
+  position:relative;
+  
+  }
+  #impact_map2{
+  float: right;
+  margin-right:10%;
+  margin-top:100px;
+  margin-bottom: 100px;
+  position:relative;
+  }
+  
+  #pp_table{
+    width:100%;
+    margin-top:150px;
+    padding-right:5%;
+    padding-left:5%;
+    margin-bottom:100px;
+  }
+  
+  tr{
+    width:100%;
+  }
+  td{
+    padding-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight:lighter;
+    text-align: left;
+  }
+  .material-icons{
+    font-size: 48px !important;
+    color:#0073cf;
+  }
+  #break{
+    clear:both;
+  }
+  /* Impact Page End */

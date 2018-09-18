@@ -1,0 +1,60 @@
+/*Apps and Algorithms Page Start*/
+
+#AA_banner {
+    background-image: url("../images/apps&algorithms.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: center; */
+    background-position: center;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+  #AA_title{
+    color:white;
+    font-size: 65px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 4px black;
+  }
+  
+  .AA_color1{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .AA_color2{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #FAFAFA;
+  }
+  .AA_team_container{
+    padding-left:40px;
+    padding-right:40px;
+    display:none;
+  }
+  
+  .AA_txt{
+    line-height: 30px;
+    padding-top:30px;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom:30px;
+    color:white;
+    background-color: #1B7169;
+    opacity: .75;
+  }
+  .AA_team_members li{
+    padding:20px;
+  }
+  
+  #AA_team1, #AA_team2, #AA_team3{
+    cursor:pointer;
+    text-align: center;
+  }
+  
+  /*Apps and Algorithms Page End*/
