@@ -277,16 +277,19 @@ nav li{
   flex:1;
   order:1;
   margin-left: 40px;
+  text-align: center;
 }
 #about_Team_Lead2{
   flex:1;
   order:2;
   margin-left: 40px;
+  text-align: center;
 }
 #about_Team_Lead3{
   flex:1;
   order:3;
   margin-left: 40px;
+  text-align: center;
 }
 
 .about_Team_Lead_image{
