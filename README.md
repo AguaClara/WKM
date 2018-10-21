@@ -11,3 +11,4 @@ Updating and maintaining AguaClara’s Digital Information Assets through the we
 * Update wiki with current projects
 
 ## Links to Reports and Presentations
+* [Fall 2018 Symposium] (https://docs.google.com/presentation/d/1XcfU-ojlk6Ux8TlH7IRIq2zPp3bRSiTDTEqlbrj90gE/edit?usp=sharing)
