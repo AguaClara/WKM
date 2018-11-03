@@ -210,7 +210,7 @@ nav li{
 a:link, a:visited{
   color:white;
   text-align: center;
-  font-size: 35px;
+  /* font-size: 35px; */
 }
 
 /* -global variables end- */
