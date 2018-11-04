@@ -86,7 +86,7 @@ html,body
   
   .about_Team_Lead_image{
     width:300px;
-    height:300px;
+    height:400px;
   }
   
   .about_header{
@@ -257,4 +257,8 @@ html,body
     margin-left: 0;
     text-align: left;
     width: 50%;
+ }
+
+ .teamlead {
+   margin: 20px;
  }
