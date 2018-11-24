@@ -24,18 +24,17 @@
   }
   
   .AA_color1{
-    background-color: #05C6F1; 
     padding-top:20px;
-    padding-bottom:0px;
+    padding-bottom:20px;
   }
   .AA_color2{
-    background-color: #05C6F1; 
     padding-top:20px;
-    padding-bottom:0px;
+    padding-bottom:20px;
+    background-color: #FAFAFA;
   }
   .AA_team_container{
-    /*padding-left:40px;*/
-    /*padding-right:40px;*/
+    padding-left:40px;
+    padding-right:40px;
     display:none;
   }
   
@@ -46,7 +45,6 @@
     padding-right:20%;
     padding-bottom:30px;
     color: black;
-    background-color:white;
     opacity: 1;
   }
   .AA_team_members li{
@@ -54,15 +52,9 @@
   }
   
   #AA_team1, #AA_team2, #AA_team3{
-    font-size:30px ;
     cursor:pointer;
     text-align: center;
-    color: white;
-    margin: 0px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-25%);
-  }
+   }
   
   #break{
     margin-top: 1px;

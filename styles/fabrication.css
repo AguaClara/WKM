@@ -25,16 +25,17 @@
   }
   
   .fabrication_color1{
-    background-color: #05C6F1;
     padding-top:20px;
+    padding-bottom:20px;
   }
   .fabrication_color2{
-    background-color: #05C6F1;
     padding-top:20px;
+    padding-bottom:20px;
+    background-color: #FAFAFA;
   }
   .fabrication_team_container{
-    /* padding-left:40px;
-    padding-right:40px; */
+    padding-left:40px;
+    padding-right:40px;
     display:none;
   }
   
@@ -44,8 +45,6 @@
     padding-left:20%;
     padding-right:20%;
     padding-bottom:30px;
-    background-color:#FFFF;
-    opacity: 1;
   }
   .fabrication_team_members li{
     padding:20px;
@@ -54,11 +53,7 @@
   #fabrication_team1, #fabrication_team2, #fabrication_team3, #fabrication_team4{
     cursor:pointer;
     text-align: center;
-    color: white;
-    margin: 0px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-25%);
+    
   }
 
   #break{
