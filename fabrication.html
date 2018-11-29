@@ -19,8 +19,8 @@
 </head>
 
 <body>
-  <!--Nav Bar-->
-  <!-- nav bar-->
+  <!-- nav bar -->
+
   <nav class="navbar navbar-expand-md fixed-top navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"> <img src="images/logo.png"></a>
@@ -29,26 +29,48 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="nav navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+          <li class="nav-item active">
+            <a class="btn btn-primary" role="button" id="nav-btn" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                About Us
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" id="dropdown-item" href="impact.html">Impact</a>
+                <a class="dropdown-item" id="dropdown-item" href="publications.html">Publications</a>
+              </div>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="impact.html">Impact</a>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Team
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" id="dropdown-item" href="about.html">Team Overview</a>
+                <a class="dropdown-item" id="dropdown-item" href="going_global.html">Going Global</a>
+                <a class="dropdown-item" id="dropdown-item" href="lab_and_research.html">Lab and Research</a>
+                <a class="dropdown-item" id="dropdown-item" href="apps_and_algorithms.html">Apps and Algorithms</a>
+                <a class="dropdown-item" id="dropdown-item" href="fabrication.html">Fabrication</a>
+              </div>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="joinus.html">Join Us</a>
+            <a class="btn btn-primary" role="button" id="nav-btn" href="joinus.html">Recruitment</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://securelb.imodules.com/s/1717/alumni/index.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=232&sort=1&bledit=1">Donate</a>
+            <a class="btn btn-primary" role="button" id="donate-btn" href="https://securelb.imodules.com/s/1717/alumni/index.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=232&sort=1&bledit=1">Donate</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <!-- end navbar -->
 
   <div id="fabrication_banner">
     <h1 id="fabrication_title"> Fabrication Subteams </h1>
