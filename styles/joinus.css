@@ -1,3 +1,24 @@
+#grad_student {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color:  black;
+  border-color: #39B54A;
+}
+
+#undergrad_student {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: black;
+  border-color: #05C6F1;
+}
+
+#intl_student {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: black ;
+  border-color: #39B54A;
+}
+
 .joinus_banner{
     background-image: url("../images/Join_Us_banner.jpg");
     margin-top: 10px;
@@ -10,6 +31,7 @@
     position: relative;
   
   }
+
   .joinus_title{
     color:white;
     font-size: 65px;
@@ -20,6 +42,30 @@
     transform: translate(-50%, -50%);
     text-shadow: 0px 0px 4px black;
   }
+
+  .joinus_date1{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 4px black;
+  } 
+
+  .joinus_date2{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 4px black;
+  } 
+
+
   .joinus_testimonial1{
   display: flex;
   flex-direction: row;
@@ -36,7 +82,7 @@
   margin-top: 20px;
   
   }
-  .joinus_testimonial_image_2{
+.joinus_testimonial_image_2{
   justify-content: flex-start;
   flex: 1;
   order: 0;
@@ -44,153 +90,155 @@
   width: 90%;
   margin-left: 5%;
   margin-top: 20px;
-  }
+}
   
-  .joinus_testimonial_paragraph{
-    justify-content: flex-start;
+.joinus_testimonial_paragraph{
+  justify-content: flex-start;
   flex: 1;
   order: 0;
   padding-top:10%;
   margin-left: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  }
-  .joinus_testimonial_paragraph_2{
+}
+.joinus_testimonial_paragraph_2{
   flex: 1;
   order: 1;
   margin-top:150px;
   margin-left: 20px;
   margin-right:5%;
-  }
-  
-  .joinus_italic{
+}
+
+.joinus_italic{
   font-style: italic;
-  }
-  
-  .joinus_mission_title{
+}
+
+.joinus_mission_title{
   align-content: center;
   align-items: center;
   display: block;
-  }
-  .joinus_hammock{
-    max-width: 100%;
-    width: auto;
-    /* height: auto; */
-    margin-right: 25%;
-    margin-left: 25%;
-      max-height: 100%;
-    align-items: center;
+}
+.joinus_hammock{
+  max-width: 100%;
+  width: auto;
+  /* height: auto; */
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 20px;
+  max-height: 100%;
+  align-items: center;
   width: 50%;
   padding-bottom: 20px;
-    }
-  .joinus_description{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top:80px;
-    margin-bottom:70px;
-    text-align: center;
-    line-height: 30px;
-    font-size: 26px;
-    font-weight: 300;
-  }
-  .joinus_why{
-    color:#6fc460;
-    /* align-items: center; */
-    /* margin-right: 25%; */
-    margin-left: 25%;
-    margin-right: 25%;
-    padding-top: 70px;
-    padding-bottom: 60px;
-    text-align: center;
-  }
-  .joinus_courses{
-    margin-left: 25%;
-  margin-right: 25%;
-  padding: 30px;
+}
+
+.joinus_description{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top:80px;
+  margin-bottom:40px;
   text-align: center;
-  color: #3ebeda;
-  
-  
-  }
-  .joinus_name{
-  margin-left: 15%;
-  margin-right: 25%;
-  font-style: italic;
-  line-height: 25px;
-  /* padding-right: 20px;
-  padding-left:20px; */
-  /* max-width: 300px; */
-  }
-  .joinus_container_testimonial{
-  padding:20px;
-  }
-  #joinus_info_header{
-  text-align: center;
+  line-height: 30px;
+  font-size: 26px;
+  font-weight: 300;
+}
+.joinus_why{
+  color:#6fc460;
+  /* align-items: center; */
+  /* margin-right: 25%; */
   margin-left: 25%;
   margin-right: 25%;
-  }
-  .joinus_recruitment{
+  padding-top: 50px;
+  /* padding-bottom: 50px; */
   text-align: center;
-  padding-bottom: 30px;
-  }
-  .class1{
-  flex: 1;
-  order: 1;
-    /* float: left; */
-    width: 250px;
-    height: 250px;
-    /* margin: 5px; */
-    background: #3ebeda;
-  
-  }
-  .class2{
-  flex: 1;
-  order: 3;
-    /* float: right; */
-    width: 250px;
-    height: 250px;
-  /* margin-left: 25%; */
-    background: #3ebeda
-  ;
-  }
-  .class3{
-  flex: 1;
-  order:2;
-  align-content: center;
+}
+.joinus_courses{
+  margin-left: 25%;
+margin-right: 25%;
+padding: 30px;
+text-align: center;
+color: #3ebeda;
+
+
+}
+.joinus_name{
+margin-left: 15%;
+margin-right: 25%;
+font-style: italic;
+line-height: 25px;
+/* padding-right: 20px;
+padding-left:20px; */
+/* max-width: 300px; */
+}
+.joinus_container_testimonial{
+padding:20px;
+}
+#joinus_info_header{
+text-align: center;
+margin-left: 25%;
+margin-right: 25%;
+}
+.joinus_recruitment{
+text-align: center;
+/* padding-bottom: 30px; */
+}
+.class1{
+flex: 1;
+order: 1;
+  /* float: left; */
   width: 250px;
   height: 250px;
-  background: #3dd676;
-  /* margin-left: 50%; */
-  
-  
-  }
-  .joinus_undergrad{
+  /* margin: 5px; */
+  background: #3ebeda;
+
+}
+.class2{
+flex: 1;
+order: 3;
+  /* float: right; */
+  width: 250px;
+  height: 250px;
+/* margin-left: 25%; */
+  background: #3ebeda
+;
+}
+.class3{
+flex: 1;
+order:2;
+align-content: center;
+width: 250px;
+height: 250px;
+background: #3dd676;
+/* margin-left: 50%; */
+
+
+}
+.joinus_undergrad{
+margin-left: 5%;
+margin-right: 5%;
+padding: 10px;
+}
+.joinus_coursesflex{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+margin-right: 5%;
+
+}
+.joinus_flextitle{
+font-weight: bold;
+text-align: center;
+font-size: 25px;
+
+}
+.joinus_international{
+margin-left: 5%;
+margin-right: 5%;
+padding: 10px;
+
+}
+.joinus_graduate{
   margin-left: 5%;
   margin-right: 5%;
   padding: 10px;
-  }
-  .joinus_coursesflex{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-right: 5%;
-  
-  }
-  .joinus_flextitle{
-  font-weight: bold;
-  text-align: center;
-  font-size: 25px;
-  
-  }
-  .joinus_international{
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 10px;
-  
-  }
-  .joinus_graduate{
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 10px;
-  
-  }
+
+}
