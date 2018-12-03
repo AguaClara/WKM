@@ -46,7 +46,7 @@
   
   .about_Team_Lead_image{
     width:300px;
-    height:300px;
+    height:350px;
   }
   
   .about_header{
@@ -55,7 +55,15 @@
     margin-top:30px;
     font-size: 40px;
   }
-  
+
+  .about_header2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top:30px;
+    font-size: 25px;
+    color: #3ebeda;
+  }
+
   #about_subteams{
     text-align: center;
     font-size: 55px;
@@ -65,7 +73,7 @@
   a:link, a:visited{
     color:white;
     text-align: center;
-    font-size: 35px;
+    /* font-size: 35px; */
   }
   
   .about_subteam_link{
