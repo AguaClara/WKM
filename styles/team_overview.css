@@ -1,43 +1,4 @@
-/*Team Overview Page Start*/
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
-@media (min-width: 858px) {
-  html {
-      font-size: 16px;
-  }
-}
-
-@media (min-width: 780px) {
-  html {
-      font-size: 15px;
-  }
-}
-
-@media (min-width: 702px) {
-  html {
-      font-size: 14px;
-  }
-}
-
-@media (min-width: 724px) {
-  html {
-      font-size: 13px;
-  }
-}
-
-@media (max-width: 623px) {
-  html {
-      font-size: 12px;
-  }
-}
-
+/*About Page Start*/
 #about_Monroe_container, #about_TeamLeads_container{
     display: flex;
     flex-direction: row;
@@ -52,7 +13,6 @@ html,body
     padding-left: 20px;
     padding-top:30px;
     line-height: 35px;
-
   
   }
   #about_Monroe_image{
@@ -86,16 +46,25 @@ html,body
   
   .about_Team_Lead_image{
     width:300px;
-    height:400px;
+    height:350px;
   }
   
   .about_header{
     text-align: center;
+    /* margin-bottom: 30px;
+    margin-top:30px; */
+    padding: 30px;
+    font-size: 40px;
+  }
+
+  .about_header2{
+    text-align: center;
     margin-bottom: 30px;
     margin-top:30px;
-    font-size: 3em;
+    font-size: 25px;
+    color: #3ebeda;
   }
-  
+
   #about_subteams{
     text-align: center;
     font-size: 55px;
@@ -105,7 +74,7 @@ html,body
   a:link, a:visited{
     color:white;
     text-align: center;
-    font-size: 35px;
+    /* font-size: 35px; */
   }
   
   .about_subteam_link{
@@ -121,10 +90,9 @@ html,body
   
   #about_banner {
     background-image: url("../images/about_banner.jpg");
-    height:40%;
+    height:60%;
     top:50px;
     margin-top: 10px;
-    margin-bottom: 100px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +101,7 @@ html,body
   
   #about_title{
     color:white;
-    font-size: 6em;
+    font-size: 65px;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -142,7 +110,7 @@ html,body
     text-shadow: 0px 0px 4px black;
   
   }
-/*   
+  
   #about_Who_We_Are{
     text-align: center;
     margin-top:40px;
@@ -150,32 +118,11 @@ html,body
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 70px;
-  } */
-  /* #about_Who_We_Are_txt{
+  }
+  #about_Who_We_Are_txt{
     font-size: 26px;
     line-height: 32px;
     font-weight: 300;
-  } */
-
-  #blue-divider{
-    border: 30px solid#05C6F1;
-    text-align: center;
-    font-size: 1.8em;
-    font-weight: 600; /* 700 = bold */
-  }
-
-  #green-divider{
-    border: 30px solid#39B54A;
-    text-align: center;
-  }
-
-  hr::after {
-    content: attr(data-content);
-    position: relative;
-    top: -0.8125em;
-    left: 0.5em;
-    display: inline-block;
-    color: white;
   }
 
   #Subteams_Container{
@@ -251,14 +198,50 @@ html,body
     border-bottom: 4px solid white;
     border-right: 4px solid white;
   }
+
+  /* publications */
+
+  .pub_color{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #FAFAFA;
+  }
+
+  #publications{
+    cursor:pointer;
+    text-align: center;
+   }
+
+  .pub_txt{
+    line-height: 30px;
+    padding-top:30px;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom:30px;
+    color: black;
+    opacity: 1;
+  }
+
+  ul{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    font-weight:lighter;
+  }
+
+  a.site:link, a.site:visited{
+    color:#000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    font-weight:lighter; 
+  }
+
+  .list{
+    list-style: none;
+    list-style-type: none;
+  }
+
+  hr{
+    border: 1px
+  }
+
   /*About Page End*/
-
-.half-rule { 
-    margin-left: 0;
-    text-align: left;
-    width: 50%;
- }
-
- .teamlead {
-   margin: 20px;
- }

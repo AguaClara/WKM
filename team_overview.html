@@ -11,8 +11,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/about.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="styles/team_overview.css" media="all" />
     <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
+
+     <!--For accordion styling-->
+	<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
 
     <title>Team Overview</title>
 
@@ -93,7 +96,7 @@
 
 
     <!--About Monroe-->
-    <h2 class="about_header">Monroe Weber-Shirk</h2>
+    <h2 class="about_header greybg">Monroe Weber-Shirk</h2>
     <div id="about_Monroe_container">
         <div id="about_Monroe_text">
             <p> Dr. Monroe Weber-Shirk received his PhD in Environmental Engineering from Cornell University in 1992.
@@ -111,7 +114,7 @@
     </div>
 
     <!--Team Leads-->
-    <h2 class="about_header"> AguaClara Cornell Fall 2018 Team Leads </h2>
+    <h2 class="about_header blue greybg"> AguaClara Cornell Fall 2018 Team Leads </h2>
     <div id="about_TeamLeads_container">
         <figure id="about_Team_Lead1">
             <img src="images/leadership/teamlead/TeamLead_1.jpg" class="about_Team_Lead_image" alt="Team Lead 1">
@@ -127,33 +130,41 @@
         </figure>
     </div>
 
-    <!-- Going Global -->
-    <!-- <h3 class="about_header2"> Going Global </h3>
-    <div id="about_GG">
-        <p> </p>
-        <a class="btn btn-primary" role="button" id="nav-btn" href="going_global.html">Recruitment Teams</a>
-    </div> -->
 
-    <!-- Lab and Research -->
-    <!-- <h3 class="about_header2"> Lab and Research </h3>
-    <div id="about_LR">
-        <p> </p>
-        <a class="btn btn-primary" role="button" id="nav-btn" href="lab_and_research.html">Lab and Research Teams</a>
-    </div> -->
+    <!-- Team Accordions -->
 
-    <!-- Apps and Algorithms -->
-    <!-- <h3 class="about_header2"> Apps and Algorithms </h3>
-    <div id="about_AA">
-        <p> </p>
-        <a class="btn btn-primary" role="button" id="nav-btn" href="apps_and_algorithms.html">Apps and Algorithms Teams</a>
-    </div> -->
+    <h2 class="about_header green greybg">Current Teams</h2>
+<div class="accordion">
+  <ul>
+    <li>
+      <div> <a href="going_global.html">
+        <h2 class="team_accordion">Going Global</h2>
+        <!-- <p>Description</p> -->
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="lab_and_research.html">
+        <h2 class="team_accordion">Lab and Research</h2>
+        <!-- <p>Description</p> -->
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="apps_and_algorithms.html">
+        <h2 class="team_accordion">Apps and Algorithms</h2>
+        <!-- <p>Description</p> -->
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="fabrication.html">
+        <h2 class="team_accordion">Fabrication</h2>
+        <!-- <p>Description</p> -->
+        </a> </div>
+    </li>
+  </ul>
+</div>
 
-    <!-- Fabrication -->
-    <!-- <h3 class="about_header2"> Fabrication </h3>
-    <div id="about_Fab">
-        <p> </p>
-        <a class="btn btn-primary" role="button" id="nav-btn" href="fabrication.html">Fabrication Teams</a>
-    </div> -->
+
+    <!-- End Team Accordions -->
 
   <!-- footer -->
 
