@@ -18,6 +18,5 @@ Updating and maintaining AguaClara’s Digital Information Assets through the we
 
 * [Symposium](https://docs.google.com/presentation/d/1XcfU-ojlk6Ux8TlH7IRIq2zPp3bRSiTDTEqlbrj90gE/edit?usp=sharing)
 * [Final Presentation](https://docs.google.com/presentation/d/1PMgveyUerw5P5xhMkh8zHkY_k4beIIsZqXyJTVFob90/edit?usp=sharing)
-=======
 * [Fall 2018 Symposium](https://docs.google.com/presentation/d/1XcfU-ojlk6Ux8TlH7IRIq2zPp3bRSiTDTEqlbrj90gE/edit?usp=sharing)
 
