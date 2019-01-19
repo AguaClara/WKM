@@ -14,7 +14,7 @@
 
 $(document).ready( function() {
     $(".teamlead").each(function(i){
-        $(this).append("<img src='images/leadership/teamlead/TeamLead"+(i+1)+".jpg' width='300' height='400'></img>")
+        $(this).append("<img id='team-lead-img' src='images/leadership/teamlead/TeamLead_"+(i+1)+".jpg' width='300' height='350' margin-left='50px' margin-right='50px' text-align=center></img>")
         return ( i < 4 );
     });
 });

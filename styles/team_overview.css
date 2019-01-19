@@ -120,7 +120,7 @@
     padding-bottom: 70px;
   }
   #about_Who_We_Are_txt{
-    font-size: 26px;
+    font-size: 20px;
     line-height: 32px;
     font-weight: 300;
   }
@@ -250,4 +250,13 @@
     margin-top: 100px;
     text-align: center;
     padding: 30px;
+  }
+
+  #team-lead-img {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .teamlead {
+    text-align: center;
   }

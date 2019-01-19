@@ -1,4 +1,12 @@
   /* publications */
+ .pub_header {
+   text-align: center;
+   padding: 30px;
+ }
+
+ /* #ac-book {
+
+ } */
 
   #pub_banner {
     background-image: url("../images/apps&algorithms.jpg");
