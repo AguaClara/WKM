@@ -50,7 +50,8 @@
     padding:20px;
   }
   
-  #fabrication_team1, #fabrication_team2, #fabrication_team3, #fabrication_team4{
+  #fabrication_team1, #fabrication_team2, #fabrication_team3, #fabrication_team4
+  , #fabrication_team5{
     cursor:pointer;
     text-align: center;
     
