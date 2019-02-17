@@ -4,9 +4,13 @@
    padding: 30px;
  }
 
- /* #ac-book {
-
- } */
+#ac-book {
+  align-items:center;
+  justify-content:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ } 
 
   #pub_banner {
     background-image: url("../images/apps&algorithms.jpg");
