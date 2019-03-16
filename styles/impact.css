@@ -22,11 +22,11 @@
   
   }
   #impact_banner2 {
-    background-image: url("../images/impact_banner2.jpg");
+    background-image: url("../images/impact_banner_alt.jpg");
     height:50%;
     top:50px;
     margin-top: 10px;
-    background-position: center;
+    background-position: bottom -100px right 0px;;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
