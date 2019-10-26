@@ -1,0 +1,246 @@
+/*About Page Start*/
+#about_Monroe_container, #about_TeamLeads_container{
+    display: flex;
+    flex-direction: row;
+    margin:40px;
+  }
+  
+  
+  #about_Monroe_text{
+    flex:1.5;
+    order:1;
+    margin-right: 90px;
+    padding-left: 20px;
+    padding-top:30px;
+    line-height: 35px;
+  
+  }
+  #about_Monroe_image{
+    width:300px;
+    height:400px;
+    flex:.5;
+    order:2;
+    margin-right: 60px;
+    margin-bottom: 25px;
+  
+  }
+  
+  #about_Team_Lead1{
+    flex:1;
+    order:1;
+    margin-left: 40px;
+    text-align: center;
+  }
+  #about_Team_Lead2{
+    flex:1;
+    order:2;
+    margin-left: 40px;
+    text-align: center;
+  }
+  #about_Team_Lead3{
+    flex:1;
+    order:3;
+    margin-left: 40px;
+    text-align: center;
+  }
+  
+  .about_Team_Lead_image{
+    width:300px;
+    height:350px;
+  }
+  
+  .about_header{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top:30px;
+    font-size: 40px;
+  }
+
+  .about_header2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top:30px;
+    font-size: 25px;
+    color: #3ebeda;
+  }
+
+  #about_subteams{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  a:link, a:visited{
+    color:white;
+    text-align: center;
+    /* font-size: 35px; */
+  }
+  
+  .about_subteam_link{
+    color:white;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 14%;
+    margin:auto;
+    font-weight: normal;
+  
+  }
+  
+  
+  #about_banner {
+    background-image: url("../images/about_banner.jpg");
+    height:60%;
+    top:50px;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  #about_title{
+    color:white;
+    font-size: 65px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 4px black;
+  
+  }
+  
+  #about_Who_We_Are{
+    text-align: center;
+    margin-top:40px;
+    padding-top:55px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 70px;
+  }
+  #about_Who_We_Are_txt{
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 300;
+  }
+
+  #Subteams_Container{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  #Subteams_SubC1, #Student4{
+    flex:1;
+    order:1;
+    display: flex;
+    flex-direction: row;
+  }
+  #Subteams_SubC2, #Student5{
+    flex:1;
+    order:2;
+    display: flex;
+    flex-direction: row;
+  }
+  #GoingGlobal,#Apps_and_Algorithms{
+    flex:1;
+    order:1;
+  }
+  #Lab_Research,#Fabrication{
+    flex:1;
+    order:2;
+  }
+  
+  #GoingGlobal{
+    background-image: url("../images/global_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  50% 70%;
+    width: 450px;
+    height:450px;
+    background-color:#1A4F5A;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+  }
+  
+  #Apps_and_Algorithms{
+    background-image: url("../images/apps_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  50% 70%;
+    width: 450px;
+    height:450px;
+    background-color: #1B7169;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+  }
+  
+  #Lab_Research{
+    background-image: url("../images/lab_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  50% 70%;
+    width: 450px;
+    height:450px;
+    background-color: #1B4C71;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+  }
+  
+  #Fabrication{
+    background-image: url("../images/building_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  50% 70%;
+    width: 450px;
+    height:450px;
+    background-color:#196749;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+  }
+
+  /* publications */
+
+  .pub_color{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #FAFAFA;
+  }
+
+  #publications{
+    cursor:pointer;
+    text-align: center;
+   }
+
+  .pub_txt{
+    line-height: 30px;
+    padding-top:30px;
+    padding-left:20%;
+    padding-right:20%;
+    padding-bottom:30px;
+    color: black;
+    opacity: 1;
+  }
+
+  ul{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    font-weight:lighter;
+  }
+
+  a.site:link, a.site:visited{
+    color:#000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    font-weight:lighter; 
+  }
+
+  .list{
+    list-style: none;
+    list-style-type: none;
+  }
+
+  hr{
+    border: 1px
+  }
+
+  /*About Page End*/
