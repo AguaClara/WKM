@@ -39,6 +39,10 @@
 
 /* End mobile device styling */
 
+.on {
+  border-bottom: 1px solid;
+  /* padding-bottom: 1%; */
+}
 
 #nav-btn {
   font-family: 'Lato', sans-serif;
@@ -48,6 +52,13 @@
   color: rgba(0,0,0,.5);
 }
 
+#navbarResponsive a:hover {
+  color: #83CFE0;
+}
+
+#nav-btn a:hover {
+  color: #83CFE0;
+}
 
 #dropdown-item {
   font-family: 'Lato', sans-serif;
@@ -147,12 +158,22 @@ html, body {
 }
 
 .social a {
-  padding: 0.5rem 0.5rem;
+  padding: 1rem 1rem;
 }
 
 .fa-facebook:hover, .fa-twitter:hover,
 .fa-linkedin:hover, .fa-instagram:hover, .fa-github:hover {
   color: #A9A9A9;
+}
+
+.fa-facebook, .fa-github {
+  color: white;
+}
+
+#two {
+  color: black;
+  font-size: 280%;
+  margin-left: 10%;
 }
 
 .copyright {
@@ -166,10 +187,12 @@ html, body {
 }
 
 .social {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 80%; */
+  margin-left: 38%;
+  margin-top: -1%;
+  margin-bottom: -1.5%;
+  /* transform: translate(-50%, -50%); */
 }
 /* end footer */
 
@@ -298,9 +321,12 @@ nav li{
 }
 
 a:link, a:visited{
-  color:white;
   text-align: center;
-  /* font-size: 35px; */
+}
+
+.social a:link {
+  font-size: 45px;
+  color:white;
 }
 
 /* -global variables end- */

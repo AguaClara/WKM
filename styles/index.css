@@ -26,6 +26,11 @@
     padding-bottom: 2rem;
     width:500px;
   }
+
+  .story {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
   
   .home_highlight_fact{
     font-size: 18px;
@@ -54,8 +59,9 @@
   }
   
   .video {
-    padding-top: 60px;
-    padding-bottom: 80px;
+    padding-top: 3%;
+    /* padding-bottom: 80px; */
+    margin-top: 2%;
   }
   
   .videotitle {
