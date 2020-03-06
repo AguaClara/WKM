@@ -1,6 +1,6 @@
 
 .landing-page {
-    background-image: url("../images/index_banner.JPG");
+    background-image: url("../images/index_banner.jpg");
     background-repeat: no-repeat;
     /* background-attachment: center; */
     background-position: center;
@@ -25,6 +25,11 @@
   .facts img {
     padding-bottom: 2rem;
     width:500px;
+  }
+
+  .story {
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
   
   .home_highlight_fact{
@@ -54,8 +59,9 @@
   }
   
   .video {
-    padding-top: 60px;
-    padding-bottom: 80px;
+    padding-top: 3%;
+    /* padding-bottom: 80px; */
+    margin-top: 2%;
   }
   
   .videotitle {
